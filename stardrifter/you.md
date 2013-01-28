@@ -9,35 +9,7 @@ You'll first need to choose a few things out before starting your adventure:
 
 ## Your name
 
-Well... it's a solo game, but please, no, don't pick "Han Solo". It's up to you.
-
-## Your class
-
-You have three basic choices, each one of them with pros and cons:
-
-* *Trader*: you're a regular merchant, you usually take care of legal stuff, and
-  always pay the right price. Space patrols won't usually bother you ; but take
-  care of bad encounters on your way.
-* *Smuggler*: Everything is not black or white. Sometimes you're assigned legal
-  cargo, sometimes you know it's illegal. Space patrols don't like you and they
-  just dream to snatch you as soon as they could.
-* *Pirate*: PLANET AHOY! you don't want a patron, you don't want to deal with
-  customers. Life is short! You'll only have to let yourself drift between
-  stars, waiting for poor innocent traders to be raided. Your loot will be drunk
-  and spent in other weaponry, armor and fuel for your pirate ship.
-
-## Your origin
-
-All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
-to tell where you're from:
-
-* 1-2: Capital planet - you come from the main planet of the Galaxy, its "center"
-  in a way. It's the richest place in the Galaxy.
-* 3-5: The Surroundings - you come from close-from-the center planets. They're
-  usually quite rich areas, but not as rich as Capital Planet.
-* 6: The Outer Arms - Some of the coldest and farthest worlds in the Galaxy.
-  Your world is a hard place, people are tough, you had to fight to survive. You
-  don't know much about Galactic Lore.
+Well... it's a solo game, but please, no, don't pick "Han Solo".
 
 ## Your stats
 
@@ -72,8 +44,72 @@ I think you can stop playing and retire... And start with a new one.
 
 ## How high are your stats?
 
-First of all, assign factors to your stats. You must assign -2, -1, 0, +1.
+First of all, assign factors to your stats. You must assign -2, -1, 0, +1. Yes,
+when you add them, the result is negative. Hey, you're new in this game, don't
+you remember?
 
+Further then, you will pick a class and roll dice for your origin, and apply
+the designated modfiers.
+
+## Your class
+
+You have three basic choices, each one of them with pros and cons:
+
+### Trader
+
+You're a regular merchant, you usually take care of legal stuff, and
+always pay the right price. Space patrols won't usually bother you ; but take
+care of bad encounters on your way.
+
+Apply a +1 to Tonguey, -1 to Harsh and +1 to Reputation.
+
+### Smuggler
+
+Everything is not black or white. Sometimes you're assigned legal
+cargo, sometimes you know it's illegal. Space patrols don't like you and they
+just dream to snatch you as soon as they could.
+
+Apply a +1 to Pilot, -1 to Reputation, +1 to Tonguey
+
+### Pirate
+
+PLANET AHOY! you don't want a patron, you don't want to deal with
+customers. Life is short! You'll only have to let yourself drift between
+stars, waiting for poor innocent traders to be raided. Your loot will be drunk
+and spent in other weaponry, armor and fuel for your pirate ship.
+
+Apply a +1 to Harsh, -1 to Reputation, +1 to Pilot
+
+## Your origin
+
+All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
+to tell where you're from:
+
+* 1-2: Capital planet,
+* 3-5: The Surroundings,
+* 6: The Outer Arms.
+
+### Capital planet
+
+You come from the main planet of the Galaxy, its "center" in a way. It's the
+richest place in the Galaxy. You are educated and versed in the Galactic Lore.
+
+Add +1 to Tonguey.
+
+### The Surroundings
+
+You come from close-from-the center planets. They're usually quite rich areas,
+but not as rich as Capital Planet.
+
+Add +1 to Pilot.
+
+### The Outer Arms
+
+Some of the coldest and farthest worlds in the Galaxy. Your world is a hard
+place, people are tough, you had to fight to survive. You don't know much about
+Galactic Lore.
+
+Add +1 to Harsh
 
 ## Your possessions
 
@@ -81,6 +117,6 @@ At the beginning of the game, your character has a basic ship (see the "Ship"
 chapter for more details), and a few credits.
 
 * Roll 1D6,
-* Add +2 if you come from the Central Planet,  +1 if you come from the
+* Add +2 if you come from the Central Planet, +1 if you come from the
   Surroundings.
 * Multiply this result by 1000, and there are your credits
