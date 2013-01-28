@@ -16,7 +16,7 @@ you'll be free to sail this ship from planets to planets to sell, buy, or even
 hijack other stardrifters.
 
 It borrows a lot from
-[Pocket Dungeon](http://boardgamegeek.com/boardgame/42361/pocket-dungeon), by
+[Pocket Dungeon][Pocket Dungeon], by
 Jonathan Gilmour, since the star systems in the galaxy are usually not
 pre-generated, but they're made up **during the game itself**, using a few
 dice rolls.
@@ -25,5 +25,7 @@ Each game would thus be totally different from each other.
 
 ## License
 
-This game is published under the terms of the
-[CC-BY-SA License](http://creativecommons.org/licenses/by-sa/3.0/).
+This game is published under the terms of the [CC-BY-SA License][CC-BY-SA License].
+
+[Pocket Dungeon]: http://boardgamegeek.com/boardgame/42361/pocket-dungeon
+[CC-BY-SA License]: http://creativecommons.org/licenses/by-sa/3.0/
