@@ -39,3 +39,4 @@ to tell where you're from:
   Your world is a hard place, people are tough, you had to fight to survive. You
   don't know much about the "laws" of the Galactic civilization.
 
+TODO: Character stats
