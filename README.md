@@ -8,8 +8,8 @@ note, advice is welcome. Please, please, please help me make this game better.
 
 ---
 
-Stardrifter is a solo game about being a Trader / Smuggler in a science-fiction
-galaxy-wide settings.
+Stardrifter is a tabletop solo role-playing game about being a Trader / Smuggler
+in a science-fiction galaxy-wide settings.
 
 In this game you'll be given a spaceship, a few credits, basic weapons and
 you'll be free to sail this ship from planets to planets to sell, buy, or even
