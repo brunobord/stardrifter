@@ -28,7 +28,16 @@ You have three basic choices, each one of them with pros and cons:
   stars, waiting for poor innocent traders to be raided. Your loot will be drunk
   and spent in other weaponry, armor and fuel for your pirate ship.
 
-# Your ship
+## Your origin
 
-You own a spaceship. Right now, it's a basic/normal cargo, with a limited load,
-limited armor, limited weapons. But it "does the job" pretty well, for now.
+All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
+to tell where you're from:
+
+* 1-2: Capital planet - you come from the main planet of the Galaxy, its "center"
+  in a way. It's the richest place in the Galaxy.
+* 3-5: The Surroundings - you come from close-from-the center planets. They're
+  usually quite rich areas, but not as rich as Capital Planet.
+* 6: The Outer Arms - Some of the coldest and farthest worlds in the Galaxy.
+  Your world is a hard place, people are tough, you had to fight to survive. You
+  don't know much about the "laws" of the Galactic civilization.
+
