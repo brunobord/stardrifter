@@ -37,6 +37,25 @@ to tell where you're from:
   usually quite rich areas, but not as rich as Capital Planet.
 * 6: The Outer Arms - Some of the coldest and farthest worlds in the Galaxy.
   Your world is a hard place, people are tough, you had to fight to survive. You
-  don't know much about the "laws" of the Galactic civilization.
+  don't know much about Galactic Lore.
 
-TODO: Character stats
+## Your stats
+
+Each character has stats, of course.
+
+### Tonguey
+
+A bit of charm, a bit of persuasion, and you can get much better prices when you
+want to sell or buy products. Useful when Space patrols want to snatch you and
+you'll need to make them believe you're an innocent space traveler.
+
+### Pilot
+
+The knowledge of physics, astrophysics, hyperdrive and space-travel, combined
+with the combat/tactics science of dodging and escaping a given threat.
+
+### Harsh
+
+Your capacity to fight in the air, find the best position to attack your
+opponent with the maximum of damages.
+
