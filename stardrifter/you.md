@@ -69,7 +69,7 @@ Everything is not black or white. Sometimes you're assigned legal
 cargo, sometimes you know it's illegal. Space patrols don't like you and they
 just dream to snatch you as soon as they could.
 
-Apply a +1 to Pilot, -1 to Reputation, +1 to Tonguey
+Apply a +1 to Pilot, -1 to Reputation, +1 to Tonguey.
 
 ### Pirate
 
@@ -78,7 +78,7 @@ customers. Life is short! You'll only have to let yourself drift between
 stars, waiting for poor innocent traders to be raided. Your loot will be drunk
 and spent in other weaponry, armor and fuel for your pirate ship.
 
-Apply a +1 to Harsh, -1 to Reputation, +1 to Pilot
+Apply a +1 to Harsh, -1 to Reputation, +1 to Pilot.
 
 ## Your origin
 
@@ -109,7 +109,7 @@ Some of the coldest and farthest worlds in the Galaxy. Your world is a hard
 place, people are tough, you had to fight to survive. You don't know much about
 Galactic Lore.
 
-Add +1 to Harsh
+Add +1 to Harsh.
 
 ## Your possessions
 
