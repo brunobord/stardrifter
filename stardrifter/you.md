@@ -5,8 +5,6 @@ planet to planet in the deep space with a full load of merchandise, to be sold
 at the best price, and you may buy some more on other worlds. Or, if you want to
 dive into piracy, you may try to attack space cargos and steal them.
 
-# Your character
-
 You'll first need to choose a few things out before starting your adventure:
 
 ## Your name
