@@ -59,3 +59,28 @@ with the combat/tactics science of dodging and escaping a given threat.
 Your capacity to fight in the air, find the best position to attack your
 opponent with the maximum of damages.
 
+### Reputation
+
+The higher, the better is your reputation. You're well-known by other
+Spacedrifters, Space patrol and local planet governors, in a good way. It can be
+useful if you're in legal trade, but can be a bit painful if you want to dig
+into Piracy. If this score is negative, you're well-known too, but for evil and
+illegal deeds: murder, raids, traffic.
+
+Special rule: When this stat is reaching +6 or -6, your character becomes a legend.
+I think you can stop playing and retire... And start with a new one.
+
+## How high are your stats?
+
+First of all, assign factors to your stats. You must assign -2, -1, 0, +1.
+
+
+## Your possessions
+
+At the beginning of the game, your character has a basic ship (see the "Ship"
+chapter for more details), and a few credits.
+
+* Roll 1D6,
+* Add +2 if you come from the Central Planet,  +1 if you come from the
+  Surroundings.
+* Multiply this result by 1000, and there are your credits
