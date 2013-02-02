@@ -141,7 +141,7 @@ chapter for more details), and a few credits.
 > * Fight: 0
 >
 >
-> I'm now rolling for Origins: it's a 3. Dante is coming from the Surroundings,
+> I'm now rolling for Origins: it's a *3*. Dante is coming from the Surroundings,
 > so I am applying both Class and Origin modifiers.
 >
 > Now my characters stats are:
@@ -152,5 +152,8 @@ chapter for more details), and a few credits.
 > * Fight: 0
 >
 > Well, it looks like I'm a hell of a pilot, but my tongue is not as skillful.
+>
+> I'm now rolling for wealth: it's a *3* again. I'm adding 1, since Hewett's
+> coming from the Surroundings, and here's my money: 4000 credits.
 
 There we go to the next chapter, i.e. my Spaceship.
