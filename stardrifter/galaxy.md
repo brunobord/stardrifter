@@ -102,7 +102,34 @@ Price is per cargo unit.
 
 > **Solo example**
 > I'm rolling for "Street prices" on Danbrilldal.
-> 
 >
+
+| Merchandise                | Central | Roll | Factor | Final price |
+|:-------------------------- |--------:|-----:|-------:|------------:|
+| Vegetable food             | 100     | 7    | 1.25   | 125         |
+| Animal food (meat)         | 125     | 5    | 1.25   | 156         |
+| Construction materials     | 200     | 6    | 1.25   | 250         |
+| Tools, mechanics           | 200     | 6    | 1.25   | 250         |
+| Electronics                | 150     | 5    | 1.25   | 187         |
+| Energy                     | 200     | 2    | 0.50   | 100         |
+| Weapons                    | 1000    | 7    | 1.25   | 1250        |
+| Slaves                     | 2000    | 4    | 1      | 2000        |
+| Drugs                      | 2000    | 7    | 1.25   | 2500        |
+
+> Excellent! I know that my character is in a place where Energy is cheap, but
+> the other goods are at reasonable price.
+
+Once you have established price for all the merchandise available, your World is
+now complete.
+
+
+----
+
+## Optional rule: when you come back to this World
+
+Basic rule set a price for all the available merchandise, once for all. But if
+you want to make it a bit more accurate, prices can change over time. If you
+come back to a World, make a re-roll for every good available, and note its new
+price. Sometimes they may go up, sometimes down.
 
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
