@@ -1,14 +1,23 @@
 # Your ship
 
-You own a spaceship. Right now, it's a basic/normal cargo, with a limited load,
-limited armor, limited weapons. But it "does the job" pretty well, for now.
+You own a spaceship. Right now, she's a basic/normal cargo, with a limited load,
+limited armor, limited weapons. But she "does the job" pretty well, for now.
 
-Of course, during the game, you'll have the opportunity to improve it, by buying
+Of course, during the game, you'll have the opportunity to improve her, by buying
 new stuff and assemble it to your ship.
 
-Each ship has a few stats
+## Her name
+
+Find her a proper, cool name.
+
+> **Solo example**
+>
+> Dante Hewett has decided to give his ship the name of a woman he once loved:
+> “Eladia”. How romantic.
 
 ## Do the maths
+
+You'll have to assigne stats to your ship, too.
 
 ### Armor
 
