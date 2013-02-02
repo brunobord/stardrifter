@@ -36,9 +36,19 @@ the bigger these damages will be.
 
 This stat is not a bonus. It represents the maximum cargo load.
 
+### Energy
+
+Again, this is not a bonus. It represents the energy left to propel the Ship 
+from planets to planets.
+
 ## Game Start
 
-At the beginning of the game, when you're a "newbie", your ship has -1 Armor and
--1 Weaponry. Yes, it's a poor ship, but she's your best friend.
+At the beginning of the game, when you're a "newbie". And your ship may look
+poor, but she's your best friend.
 
-It has 4 cargo load.
+Please take note of these stats:
+
+* -1 Armor,
+* -1 Weaponry,
+* 4 cargo load,
+* 100 energy units
