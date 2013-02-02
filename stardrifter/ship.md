@@ -6,7 +6,10 @@ limited armor, limited weapons. But she "does the job" pretty well, for now.
 Of course, during the game, you'll have the opportunity to improve her, by buying
 new stuff and assemble it to your ship.
 
-## Her name
+Pick a "Ship Sheet" (you can use a simple index card if you like) and fill it
+following the steps below.
+
+## Pick her name
 
 Find her a proper, cool name.
 
