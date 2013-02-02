@@ -36,6 +36,6 @@ This stat is not a bonus. It represents the maximum cargo load.
 ## Game Start
 
 At the beginning of the game, when you're a "newbie", your ship has -1 Armor and
--1 Weaponry. Yes, it's a poor ship, but very valuable.
+-1 Weaponry. Yes, it's a poor ship, but she's your best friend.
 
 It has 4 cargo load.
