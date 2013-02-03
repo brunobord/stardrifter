@@ -43,6 +43,8 @@ class MarkdownReader(object):
 
 class HTMLWriter(object):
     "HTML Writer, builds documentation"
+    static_dir = 'static'
+
     def __init__(self, build_path, template):
         self.build_path = build_path
         self.template = template
@@ -51,7 +53,13 @@ class HTMLWriter(object):
     def write(self, base, data):
         "Write content to the destination path"
         quiet_mkdir(os.path.join(self.build_path, base))
-        destination = os.path.join(os.path.join(self.build_path, base, 'index.html'))
+        if base != 'intro':
+            destination = os.path.join(os.path.join(self.build_path, base, 'index.html'))
+            data.update({'static_path': os.path.join('..', self.static_dir)})
+        else:
+            # special case: intro is the root index
+            destination = os.path.join(os.path.join(self.build_path, 'index.html'))
+            data.update({'static_path': self.static_dir})
         with codecs.open(destination, 'w', encoding='utf') as fd:
             fd.write(self.template.render(data))
 
