@@ -88,7 +88,14 @@ def build():
 def clean():
     "Clean build directories. Warning! there's no 'undo'."
     if raw_input('Are you sure? [y/N] ').lower() == 'y':
-        shutil.rmtree(BUILD_PATH, ignore_errors=True)
+        for item in os.listdir(BUILD_PATH):
+            fullpath = os.path.join(BUILD_PATH, item)
+            if item.startswith('.'):
+                continue
+            if os.path.isdir(fullpath):
+                shutil.rmtree(fullpath, ignore_errors=True)
+            else:
+                os.unlink(fullpath)
 
 
 if __name__ == '__main__':
