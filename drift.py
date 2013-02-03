@@ -13,6 +13,7 @@ BUILD_PATH = os.path.abspath(os.path.join('.', 'build'))
 
 
 class MarkdownReader(object):
+    "Reader for markdown documents"
     file_extensions = ['md', 'markdown', 'mkd']
     extensions = ['extra', 'meta', 'tables']
 
@@ -41,12 +42,14 @@ class MarkdownReader(object):
 
 
 class HTMLWriter(object):
+    "HTML Writer, builds documentation"
     def __init__(self, build_path, template):
         self.build_path = build_path
         self.template = template
         quiet_mkdir(self.build_path)
 
     def write(self, base, data):
+        "Write content to the destination path"
         quiet_mkdir(os.path.join(self.build_path, base))
         destination = os.path.join(os.path.join(self.build_path, base, 'index.html'))
         with codecs.open(destination, 'w', encoding='utf') as fd:
@@ -54,6 +57,7 @@ class HTMLWriter(object):
 
 
 def quiet_mkdir(path):
+    "Make dirs without warning"
     try:
         os.makedirs(path)
     except OSError:
@@ -61,6 +65,7 @@ def quiet_mkdir(path):
 
 
 def build():
+    "Build the documents"
     reader = MarkdownReader()
     writer = HTMLWriter(BUILD_PATH, Template(codecs.open('base.html', encoding='utf').read()))
     for filename in os.listdir(SOURCE_PATH):
@@ -73,6 +78,7 @@ def build():
 
 
 def clean():
+    "Clean build directories. Warning! there's no 'undo'."
     if raw_input('Are you sure? [y/N] ').lower() == 'y':
         shutil.rmtree(BUILD_PATH, ignore_errors=True)
 
