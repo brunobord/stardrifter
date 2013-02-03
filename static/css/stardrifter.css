@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 blockquote {
   font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
 }
 pre, code, table, tr, td, th {
   font-family: 'Droid Sans Mono', sans-serif;
