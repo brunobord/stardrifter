@@ -1,0 +1,16 @@
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+body {
+  font-family:'Droid Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Iceland', cursive;
+}
+blockquote {
+  font-family: 'Ubuntu', sans-serif;
+}
+pre, code, table, tr, td, th {
+  font-family: 'Droid Sans Mono', sans-serif;
+}
