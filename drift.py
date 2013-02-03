@@ -2,6 +2,7 @@
 #-*- coding: utf-8 -*-
 import os
 import sys
+import shutil
 import codecs
 import argparse
 from jinja2 import Template
@@ -32,11 +33,24 @@ class MarkdownReader(object):
     def read(self, source_path):
         """Parse content and metadata of markdown files"""
         text = codecs.open(source_path, encoding='utf').read()
-        md = Markdown(extensions=set(self.extensions + ['meta']))
+        md = Markdown(extensions=self.extensions)
         content = md.convert(text)
 
         metadata = self._parse_metadata(md.Meta)
         return content, metadata
+
+
+class HTMLWriter(object):
+    def __init__(self, build_path, template):
+        self.build_path = build_path
+        self.template = template
+        quiet_mkdir(self.build_path)
+
+    def write(self, base, data):
+        quiet_mkdir(os.path.join(self.build_path, base))
+        destination = os.path.join(os.path.join(self.build_path, base, 'index.html'))
+        with codecs.open(destination, 'w', encoding='utf') as fd:
+            fd.write(self.template.render(data))
 
 
 def quiet_mkdir(path):
@@ -48,18 +62,20 @@ def quiet_mkdir(path):
 
 def build():
     reader = MarkdownReader()
-    quiet_mkdir(BUILD_PATH)
-    template = Template(codecs.open('base.html', encoding='utf').read())
+    writer = HTMLWriter(BUILD_PATH, Template(codecs.open('base.html', encoding='utf').read()))
     for filename in os.listdir(SOURCE_PATH):
         base, ext = os.path.splitext(filename)
         if ext == '.md':
-            quiet_mkdir(os.path.join(BUILD_PATH, base))
             source = os.path.join(SOURCE_PATH, filename)
-            destination = os.path.join(os.path.join(BUILD_PATH, base, 'index.html'))
             body, metadata = reader.read(source)
             metadata.update({'body': body})
-            with codecs.open(destination, 'w', encoding='utf-8') as fd:
-                fd.write(template.render(metadata))
+            writer.write(base, metadata)
+
+
+def clean():
+    if raw_input('Are you sure? [y/N] ').lower() == 'y':
+        shutil.rmtree(BUILD_PATH, ignore_errors=True)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Build Stardrifter and other tools')
@@ -67,5 +83,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.command == 'build':
         build()
+    elif args.command == 'clean':
+        clean()
     else:
         sys.exit('todo')
