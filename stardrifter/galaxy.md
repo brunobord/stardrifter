@@ -1,3 +1,5 @@
+Title: The Galaxy Generator
+
 # Galaxy Generator
 
 The basic idea behind Stardrifter is that one can play it without preparation,

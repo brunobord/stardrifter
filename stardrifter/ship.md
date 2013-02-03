@@ -1,3 +1,5 @@
+Title: Your ship
+
 # Your ship
 
 You own a spaceship. Right now, she's a basic/normal cargo, with a limited load,

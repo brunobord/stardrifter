@@ -1,3 +1,5 @@
+Title: Introduction to Stardrifter
+
 # Stardrifter
 
 Stardrifter is a tabletop solo role-playing game about being a Trader / Smuggler

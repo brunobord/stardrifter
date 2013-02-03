@@ -1,3 +1,5 @@
+Title: You
+
 # You are...
 
 You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
