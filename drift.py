@@ -15,7 +15,7 @@ BUILD_PATH = os.path.abspath(os.path.join('.', 'build'))
 class MarkdownReader(object):
     "Reader for markdown documents"
     file_extensions = ['md', 'markdown', 'mkd']
-    extensions = ['extra', 'meta', 'tables']
+    extensions = ['extra', 'meta', 'tables', 'toc']
 
     def _parse_metadata(self, meta):
         """Return the dict containing document metadata"""
