@@ -8,23 +8,32 @@
 	<link rel="stylesheet" href="{{ path_prefix }}/static/css/stardrifter.css">
 </head>
 <body>
-	<div class="container-narrow">
-<div class="navbar">
-<div class="navbar-inner">
-<ul class="nav">
-	<li {% if current == 'intro' %}class="active"{% endif %}><a href="{{ path_prefix }}/">Home</a>
-	{% for key, label in navigation %}
-	<li {% if key == current %}class="active"{% endif %}><a href="{{ path_prefix }}/{{ key }}/">{{ label }}</a></li>
-	{% endfor %}
-</ul>
-</div>
-</div>
-	{{ body }}
+<div class="container-narrow">
+	<div class="navbar">
+		<div class="navbar-inner">
+		<ul class="nav">
+			<li {% if current == 'intro' %}class="active"{% endif %}><a href="{{ path_prefix }}/">Home</a>
+			{% for key, label in navigation %}
+			<li {% if key == current %}class="active"{% endif %}><a href="{{ path_prefix }}/{{ key }}/">{{ label }}</a></li>
+			{% endfor %}
+		</ul>
+		</div>
 	</div>
-	<script type="text/javascript" src="{{ path_prefix }}/static/js/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ path_prefix }}/static/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-	$('table').addClass('table-striped').addClass('table');
-	</script>
+	<article>
+	{{ body }}
+	</article>
+
+	<footer class="footer">
+		<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Stardrifter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://brunobord.github.com/stardrifter/" property="cc:attributionName" rel="cc:attributionURL">Bruno Bord</a> is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
+		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a></p>
+	</footer>
+</div>
+
+<script type="text/javascript" src="{{ path_prefix }}/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ path_prefix }}/static/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('table').addClass('table-striped').addClass('table');
+</script>
+
 </body>
 </html>
