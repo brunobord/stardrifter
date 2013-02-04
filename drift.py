@@ -4,6 +4,7 @@ import os
 import sys
 import shutil
 import codecs
+import datetime
 import argparse
 from jinja2 import Template
 from markdown import Markdown
@@ -11,6 +12,7 @@ from markdown import Markdown
 SOURCE_PATH = os.path.abspath(os.path.join('.', 'stardrifter'))
 BUILD_PATH = os.path.abspath(os.path.join('.', 'build'))
 
+now = datetime.datetime.now()
 
 class MarkdownReader(object):
     "Reader for markdown documents"
@@ -58,7 +60,10 @@ class HTMLWriter(object):
             # special case: intro is the root index
             path_prefix = '.'
             destination = os.path.join(os.path.join(self.build_path, 'index.html'))
-        data.update({'path_prefix': path_prefix})
+        data.update({
+            'path_prefix': path_prefix,
+            'date': now.strftime("%a, %d %b %Y %H:%M")
+        })
         with codecs.open(destination, 'w', encoding='utf') as fd:
             fd.write(self.template.render(data))
 
