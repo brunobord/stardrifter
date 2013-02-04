@@ -71,6 +71,13 @@ def quiet_mkdir(path):
         pass
 
 
+NAVIGATION = (
+    ('you', 'You'),
+    ('ship', 'Your ship'),
+    ('galaxy', 'Galaxy Generator'),
+)
+
+
 def build():
     "Build the documents"
     reader = MarkdownReader()
@@ -80,7 +87,10 @@ def build():
         if ext == '.md':
             source = os.path.join(SOURCE_PATH, filename)
             body, metadata = reader.read(source)
-            metadata.update({'body': body})
+            metadata.update({
+                'body': body,
+                'navigation': NAVIGATION,
+                'current': base})
             writer.write(base, metadata)
     # copy the full static files in build
     shutil.rmtree(os.path.join(BUILD_PATH, 'static'))

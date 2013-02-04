@@ -9,6 +9,16 @@
 </head>
 <body>
 	<div class="container-narrow">
+<div class="navbar">
+<div class="navbar-inner">
+<ul class="nav">
+	<li {% if current == 'intro' %}class="active"{% endif %}><a href="{{ path_prefix }}/">Home</a>
+	{% for key, label in navigation %}
+	<li {% if key == current %}class="active"{% endif %}><a href="{{ path_prefix }}/{{ key }}/">{{ label }}</a></li>
+	{% endfor %}
+</ul>
+</div>
+</div>
 	{{ body }}
 	</div>
 	<script type="text/javascript" src="{{ path_prefix }}/static/js/jquery.min.js"></script>
