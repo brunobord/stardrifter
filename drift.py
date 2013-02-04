@@ -93,7 +93,8 @@ def build():
                 'current': base})
             writer.write(base, metadata)
     # copy the full static files in build
-    shutil.rmtree(os.path.join(BUILD_PATH, 'static'))
+    if os.path.exists(os.path.join(BUILD_PATH, 'static')):
+        shutil.rmtree(os.path.join(BUILD_PATH, 'static'))
     shutil.copytree('static', os.path.join(BUILD_PATH, 'static'))
 
 
