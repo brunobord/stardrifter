@@ -22,4 +22,9 @@ and HTML.
 I may have the opportunity to help the players by providing tools (small scripts,
 and why not an online world generator, etc).
 
+Since this game is Free as in speech and beer,
+[you can visit its source and other stuff on Github][Stardrifter Github].
+
+
 [Pocket Dungeon]: http://boardgamegeek.com/boardgame/42361/pocket-dungeon
+[Stardrifter Github]: https://github.com/brunobord/stardrifter/
