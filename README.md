@@ -40,6 +40,10 @@ python drift.py clean  # to clean the build directory
 
 This game is published under the terms of the [CC-BY-SA License][CC-BY-SA License].
 
+Everything related to [this game is available on Github][Stardrifter Github].
+Please help me make it better by filing issues, sending comments, etc.
+
 [Pocket Dungeon]: http://boardgamegeek.com/boardgame/42361/pocket-dungeon
 [CC-BY-SA License]: http://creativecommons.org/licenses/by-sa/3.0/
 [venv]: http://pypi.python.org/pypi/virtualenv
+[Stardrifter Github]: https://github.com/brunobord/stardrifter/
