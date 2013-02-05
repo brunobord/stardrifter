@@ -217,21 +217,20 @@ Please take note of these stats:
 * 4 cargo load,
 * 100 energy units
 
-If you want to improve your ship, you can already [buy parts][marketplace]. Or
-you can choose to [start your adventure][adventure].
+You are now ready to [start your adventure][adventure]!
 
 ---
 
 ## Summary
 
 * Pick a name
-* Assign modifiers to your stats: -2, -1, 0, +1
+* Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Pilot, Fight, Reputation.
 * Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class
 * Roll for origin and adjust modifiers according to your Origin
 * Roll for wealth (and adjust with Origin)
 * Pick a name for your ship
-* Assign modifers to her stats
-* Eventually go to the [Marketplace][marketplace] and buy parts.
+* Assign modifers to her stats: Armor and Weaponry, and set her cargo load and energy.
 
-[marketplace]: ../marketplace/
+Now let's [start your adventure][adventure]!
+
 [adventure]: ../adventure/

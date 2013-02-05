@@ -79,6 +79,7 @@ def quiet_mkdir(path):
 
 NAVIGATION = (
     ('you', 'You & your ship'),
+    ('adventure', 'Adventure'),
     ('galaxy', 'Galaxy Generator'),
 )
 
