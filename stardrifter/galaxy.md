@@ -86,6 +86,10 @@ according to the natural resources available on the planet.
 | 11   | 2.50    |
 | 12   | 3.00    |
 
+Please note that the prices will be rounded down. e.g.:
+
+    150 * 1.25 = 187.5 = 187
+
 ### Capital prices
 
 Price is per cargo unit.
