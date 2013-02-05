@@ -87,8 +87,9 @@ according to the natural resources available on the planet.
 | 11   | 2.50    |
 | 12   | 3.00    |
 
-Please note that the prices will be rounded down. e.g.:
 
+!!! note "Round the price" 
+    Please note that the prices will be rounded down. e.g.:
     150 * 1.25 = 187.5 = 187
 
 ### Capital prices
@@ -136,9 +137,10 @@ Your World is now complete. Enjoy your stay!
 ## Optional rule: when you come back to this World
 
 Basic rule set a price for all the available merchandise, once for all. But if
-you want to make it a bit more accurate, prices can change over time. If you
-come back to a World, make a re-roll for every good available, and note its new
-price. Sometimes they may go up, sometimes down.
+you want to make it a bit more accurate, prices can change over time.
+
+When you come back to a World, make a re-roll for every good available, and note
+its new price. Sometimes they may go up, sometimes down.
 
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
 [marketplace]: ../marketplace/
