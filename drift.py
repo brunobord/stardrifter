@@ -18,7 +18,7 @@ now = datetime.datetime.now()
 class MarkdownReader(object):
     "Reader for markdown documents"
     file_extensions = ['md', 'markdown', 'mkd']
-    extensions = ['extra', 'meta', 'tables', 'toc']
+    extensions = ['extra', 'meta', 'tables', 'toc', 'admonition']
 
     def _parse_metadata(self, meta):
         """Return the dict containing document metadata"""
