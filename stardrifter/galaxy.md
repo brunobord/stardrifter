@@ -1,6 +1,6 @@
-Title: The Galaxy Generator
+Title: The Galaxy World Generator
 
-# Galaxy Generator
+# Galaxy World Generator
 
 The basic idea behind Stardrifter is that one can play it without preparation,
 without having to previously generate Planets, Worlds, beforehand.
@@ -125,8 +125,9 @@ Price is per cargo unit.
 > Excellent! I know that my character is in a place where Energy is cheap, but
 > the other goods are at reasonable price.
 
-Once you have established price for all the merchandise available, your World is
-now complete.
+These prices will be used when you'll head to the [Marketplace][marketplace]
+
+Your World is now complete. Enjoy your stay!
 
 
 ----
@@ -139,3 +140,4 @@ come back to a World, make a re-roll for every good available, and note its new
 price. Sometimes they may go up, sometimes down.
 
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
+[marketplace]: ../marketplace/
