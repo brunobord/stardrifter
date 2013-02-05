@@ -23,9 +23,25 @@ dice rolls.
 
 Each game would thus be totally different from each other.
 
+---
+
+## Building the website
+
+For those interested into building the HTML documents out of the markdown source,
+you'll have to use the `drift.py` tool.
+
+It is *recommended* to use [Virtualenv][venv] beforehand.
+
+```shell
+pip install -r requirements.txt
+python drift.py build  # to build the docs
+python drift.py clean  # to clean the build directory
+```
+
 ## License
 
 This game is published under the terms of the [CC-BY-SA License][CC-BY-SA License].
 
 [Pocket Dungeon]: http://boardgamegeek.com/boardgame/42361/pocket-dungeon
 [CC-BY-SA License]: http://creativecommons.org/licenses/by-sa/3.0/
+[venv]: http://pypi.python.org/pypi/virtualenv
