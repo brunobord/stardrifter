@@ -39,7 +39,8 @@ middle of the map, and write the name of the planet beside.
 
 ### 2. Distance
 
-*Note*: You can skip this step if its your Initial Location.
+!!! note "Skip it"
+    You can skip this step if its your Initial Location.
 
 How far is this world from where you are **right now**?
 
