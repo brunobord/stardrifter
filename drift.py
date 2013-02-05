@@ -14,6 +14,7 @@ BUILD_PATH = os.path.abspath(os.path.join('.', 'build'))
 
 now = datetime.datetime.now()
 
+
 class MarkdownReader(object):
     "Reader for markdown documents"
     file_extensions = ['md', 'markdown', 'mkd']
@@ -77,8 +78,7 @@ def quiet_mkdir(path):
 
 
 NAVIGATION = (
-    ('you', 'You'),
-    ('ship', 'Your ship'),
+    ('you', 'You & your ship'),
     ('galaxy', 'Galaxy Generator'),
 )
 
