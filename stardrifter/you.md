@@ -1,4 +1,4 @@
-Title: You
+Title: You & your ship
 
 # You are...
 
@@ -58,7 +58,7 @@ the designated modfiers.
 
 You have three basic choices, each one of them with pros and cons:
 
-### Trader
+### Merchant
 
 You're a regular merchant, you usually take care of legal stuff, and
 always pay the right price. Space patrols won't usually bother you ; but take
@@ -216,3 +216,22 @@ Please take note of these stats:
 * -1 Weaponry,
 * 4 cargo load,
 * 100 energy units
+
+If you want to improve your ship, you can already [buy parts][marketplace]. Or
+you can choose to [start your adventure][adventure].
+
+---
+
+## Summary
+
+* Pick a name
+* Assign modifiers to your stats: -2, -1, 0, +1
+* Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class
+* Roll for origin and adjust modifiers according to your Origin
+* Roll for wealth (and adjust with Origin)
+* Pick a name for your ship
+* Assign modifers to her stats
+* Eventually go to the [Marketplace][marketplace] and buy parts.
+
+[marketplace]: ../marketplace/
+[adventure]: ../adventure/
