@@ -15,11 +15,9 @@ In this game you'll be given a spaceship, a few credits, basic weapons and
 you'll be free to sail this ship from planets to planets to sell, buy, or even
 hijack other stardrifters.
 
-It borrows a lot from
-[Pocket Dungeon][Pocket Dungeon], by
-Jonathan Gilmour, since the star systems in the galaxy are usually not
-pre-generated, but they're made up **during the game itself**, using a few
-dice rolls.
+It borrows a lot from [Pocket Dungeon][Pocket Dungeon], by Jonathan Gilmour,
+since the star systems in the galaxy are usually not pre-generated, but they're
+made up **during the game itself**, using a few dice rolls.
 
 Each game would thus be totally different from each other.
 
@@ -27,8 +25,8 @@ Each game would thus be totally different from each other.
 
 ## Building the website
 
-For those interested into building the HTML documents out of the markdown source,
-you'll have to use the `drift.py` tool.
+For those interested into building the HTML documents out of the markdown
+source, you'll have to use the `drift.py` tool.
 
 It is *recommended* to use [Virtualenv][venv] beforehand.
 
