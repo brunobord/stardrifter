@@ -5,6 +5,7 @@ import sys
 import shutil
 import codecs
 import datetime
+import logging
 import argparse
 from jinja2 import Template
 from markdown import Markdown
@@ -86,6 +87,7 @@ NAVIGATION = (
 
 def build():
     "Build the documents"
+    logging.info('Start building')
     reader = MarkdownReader()
     writer = HTMLWriter(BUILD_PATH, Template(codecs.open('base.html', encoding='utf').read()))
     for filename in os.listdir(SOURCE_PATH):
@@ -97,11 +99,14 @@ def build():
                 'body': body,
                 'navigation': NAVIGATION,
                 'current': base})
+            logging.info('Writing %s' % base)
             writer.write(base, metadata)
     # copy the full static files in build
     if os.path.exists(os.path.join(BUILD_PATH, 'static')):
         shutil.rmtree(os.path.join(BUILD_PATH, 'static'))
+    logging.info('Copying static files')
     shutil.copytree('static', os.path.join(BUILD_PATH, 'static'))
+    logging.info("Done")
 
 
 def clean():
@@ -120,7 +125,12 @@ def clean():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Build Stardrifter and other tools')
     parser.add_argument('command', choices=['build', 'clean'])
+    parser.add_argument('--debug', action="store_true")
     args = parser.parse_args()
+
+    if args.debug:
+        logging.basicConfig(level=logging.DEBUG)
+
     if args.command == 'build':
         build()
     elif args.command == 'clean':
