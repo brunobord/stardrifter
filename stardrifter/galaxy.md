@@ -131,16 +131,13 @@ These prices will be used when you'll head to the [Marketplace][marketplace]
 
 Your World is now complete. Enjoy your stay!
 
+!!!rule "Alternate rule"
 
-----
+    Basic rule set a price for all the available merchandise, once for all. But if
+    you want to make it a bit more accurate, prices can change over time.
 
-## Optional rule: when you come back to this World
-
-Basic rule set a price for all the available merchandise, once for all. But if
-you want to make it a bit more accurate, prices can change over time.
-
-When you come back to a World, make a re-roll for every good available, and note
-its new price. Sometimes they may go up, sometimes down.
+    When you come back to a World, make a re-roll for every good available, and note
+    its new price. Sometimes they may go up, sometimes down.
 
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
 [marketplace]: ../marketplace/
