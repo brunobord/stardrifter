@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+"""Stardrifter building document script.
+
+This script builds HTML documents out of the Markdown files and stores them in
+the `build` directory.
+
+Usage:
+
+    python drift.py build
+
+You can cleanup the `build` directory by using the "clean" command, too.
+
+    :license: BSD, see LICENSE for details
+    :copyright: 2013 by Bruno Bord
+"""
 import os
 import sys
 import shutil
