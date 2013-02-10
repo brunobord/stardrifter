@@ -1,4 +1,4 @@
-Title: You & your ship
+Title: Your character
 
 You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
 planet to planet in the deep space with a full load of merchandise, to be sold
@@ -182,81 +182,7 @@ but you'll experience little drawbacks.
 > He rolls 1 and 6, and adds his *Drift* score (+3). That's a 10. His roll is 
 > successful, he manages to escape without trouble.
 
-Now we're going to look after your "only" friend: your spaceship.
+Now we're going to look after your "only" friend: [your spaceship][ship].
 
-----
 
-# Build Your ship
-
-You own a spaceship. Right now, she's a basic/normal cargo, with a limited load,
-limited armor, limited weapons. But she "does the job" pretty well, for now.
-
-Of course, during the game, you'll have the opportunity to improve her, by buying
-new stuff and assemble it to your ship.
-
-Pick a "Ship Sheet" (you can use a simple index card if you like) and fill it
-following the steps below.
-
-## Pick her name
-
-Find her a proper, cool name.
-
-> **Solo example**
->
-> Dante Hewett has decided to give his ship the name of a woman he once loved:
-> “Eladia”. How romantic.
-
-## Do the maths
-
-You'll have to assigne stats to your ship, too.
-
-### Armor
-
-Resistance to the attacks. The more you have, the better you are protected
-against Weapons.
-
-### Weaponry
-
-The capacity to attack an other spaceship and provoke damages. The more you have,
-the bigger these damages will be.
-
-### Load
-
-This stat is not a bonus. It represents the maximum cargo load.
-
-### Energy
-
-Again, this is not a bonus. It represents the energy left to propel the Ship 
-from planets to planets.
-
-## Default Ship stats
-
-At the beginning of the game, when you're a "newbie". And your ship may look
-poor, but she's your best friend.
-
-Please take note of these stats:
-
-* -1 Armor,
-* -1 Weaponry,
-* 4 cargo load,
-* 100 energy units
-
-You are now ready to [start your adventure][adventure]!
-
----
-
-# Summary
-
-!!! rule "Character creation summary" 
-
-    * Pick a name
-    * Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Drift, Fight, Reputation.
-    * Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class
-    * Roll for origin and adjust modifiers according to your Origin
-    * Roll for wealth (and adjust with Origin)
-    * Pick a name for your ship
-    * Assign modifers to her stats: Armor and Weaponry, and set her cargo load and energy.
-
-Now let's [start your adventure][adventure]!
-
-[adventure]: ../adventure/
+[ship]: ../ship/
