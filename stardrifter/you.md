@@ -1,13 +1,13 @@
 Title: You & your ship
 
-# You are...
-
 You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
 planet to planet in the deep space with a full load of merchandise, to be sold
 at the best price, and you may buy some more on other worlds. Or, if you want to
 dive into piracy, you may try to attack space cargos and steal them.
 
 You'll first need to work a few things out before starting your adventure:
+
+# Build your character
 
 ## Pick a name
 
@@ -186,7 +186,7 @@ Now we're going to look after your "only" friend: your spaceship.
 
 ----
 
-# Your ship
+# Build Your ship
 
 You own a spaceship. Right now, she's a basic/normal cargo, with a limited load,
 limited armor, limited weapons. But she "does the job" pretty well, for now.
@@ -245,7 +245,7 @@ You are now ready to [start your adventure][adventure]!
 
 ---
 
-## Summary
+# Summary
 
 !!! rule "Character creation summary" 
 

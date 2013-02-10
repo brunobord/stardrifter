@@ -1,6 +1,5 @@
 Title: The Galaxy World Generator
 
-# Galaxy World Generator
 
 The basic idea behind Stardrifter is that one can play it without preparation,
 without having to previously generate Planets, Worlds, beforehand.
@@ -9,20 +8,20 @@ At the beginning of the game, you'll have to roll for your initial location.
 Everytime you'll want to go from where you are to a **new planet**, you'll have
 to roll to generate a new world.
 
-## How to draw the Galaxy map
+# How to draw the Galaxy map
 
 The easiest way to draw your Galactic map will be to use [Hex Maps][HexMap].
 You'll find tons of HexMap generators, including PDFs you may want to print
 before starting to play.
 
-## A new World
+# A new World
 
 Whatever it is, you initial location or your next destination, you'll have to
 follow a few steps to generate a new World.
 
 Pick a "World sheet" (you can use a simple index card if you want).
 
-### 1. Name your world
+## 1. Name your world
 
 It has to be "Cosmologic". e.g.: Beta Hydri Major, Araknor, Rhat'hiiy'y, etc.
 Use your imagination, there's no established rule. Pick random numbers if you
@@ -37,7 +36,7 @@ later on. Again, on the Web, you will find many Planet name generators.
 Grab your Hex Map. If this world is you Initial Location, and draw a spot in the
 middle of the map, and write the name of the planet beside.
 
-### 2. Distance
+## 2. Distance
 
 !!! note "Skip it"
     You can skip this step if its your Initial Location.
@@ -48,12 +47,12 @@ Roll 2D6: it's the distance, in "parsecs" from your location to the other one.
 Grab your Hex Map. Each Hexagon equals a "parsec". Thus, it should be separated
 by the same number of hexes than the distance you've just rolled.
 
-### 3. Wealth, resources, stuff
+## 3. Wealth, resources, stuff
 
 Since not every planet is equal, you are likely to find some resources on one
 planet, and some are rare. You'll have to roll for each possible resource:
 
-#### Legal resources
+### Legal resources
 
 1. Vegetable food 
 2. Animal food (meat)
@@ -62,7 +61,7 @@ planet, and some are rare. You'll have to roll for each possible resource:
 5. Electronic stuff
 6. Energy
 
-#### Illegal resources
+### Illegal resources
 
 1. Weapons
 2. Slaves
@@ -70,7 +69,7 @@ planet, and some are rare. You'll have to roll for each possible resource:
 
 Roll 2D6 for each and write its score on the World sheet.
 
-#### A quick note about prices
+### A quick note about prices
 
 Prices vary, but the reference is "Capital Price", that is to say the "Street price"
 when you're on Capital Planet. On each planet, we will have to adjust the price
@@ -92,7 +91,7 @@ according to the natural resources available on the planet.
     Please note that the prices will be rounded down. e.g.:
     150 * 1.25 = 187.5 = 187
 
-### Capital prices
+## Capital prices
 
 Price is per cargo unit.
 
@@ -109,7 +108,7 @@ Price is per cargo unit.
 | Drugs                      | 2000    |
 
 
-### Prices on Danbrilldal
+## Prices on Danbrilldal
 
 > **Solo example**
 > I'm rolling for "Street prices" on Danbrilldal.

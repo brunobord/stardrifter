@@ -1,6 +1,5 @@
 Title: Introduction to Stardrifter
 
-# Stardrifter
 
 Stardrifter is a tabletop solo role-playing game about being a Trader / Smuggler
 in a science-fiction galaxy-wide settings.
@@ -13,7 +12,7 @@ It borrows a lot from [Pocket Dungeon][Pocket Dungeon], by Jonathan Gilmour,
 since the star systems in the galaxy are usually not pre-generated, but they're
 made up **during the game itself**, using a few dice rolls.
 
-## Goals
+# Goals
 
 Stardrifter is meant to be published in many formats. The texts will be written
 using Markdown, and thus can be (and hopefully *will be*) available in PDF, ePub

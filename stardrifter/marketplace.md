@@ -1,7 +1,5 @@
 Title: Buy & Sell
 
-# Buy and Sell
-
 Take your World Sheet, your Ship Sheet and your Character Sheet and check if you
 want to buy or sell goods. You'll be able to buy Merchandises (things to trade
 from a World to another), sell these Merchandise, or buy things to improve your
@@ -11,7 +9,7 @@ On the World Sheet, you see the price of available goods. On the Ship Sheet, you
 can see how many cargo load unit are available. On the Character Sheet, you can
 see how much credit you have and what is your *Negociate* score.
 
-## Buy Merchandise
+# Buy Merchandise
 
 Every time you want to buy things, you first pick the item and the quantity you
 want to buy. Then you roll **2D6+Negociate**. See the result below:
