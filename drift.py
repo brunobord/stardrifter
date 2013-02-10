@@ -101,14 +101,17 @@ def quiet_mkdir(path):
 
 
 NAVIGATION = (
+    {'caption': 'Prepare'},
     {'url': "quickstart", 'caption': 'Quickstart'},
     {'url': 'you', 'caption': 'Your character'},
     {'url': 'ship', 'caption': 'Your ship'},
+    {'caption': 'Play'},
     {'url': 'adventure', 'caption': 'Adventure', 'children': (
         {'url': 'marketplace', 'caption': 'Marketplace'},
         {'url': 'travel', 'caption': 'Space Travel'},
     )},
     {'url': 'galaxy', 'caption': 'Galaxy Generator'},
+    # Handouts (sheets)
 )
 
 
