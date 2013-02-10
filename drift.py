@@ -36,6 +36,11 @@ class MarkdownReader(object):
     file_extensions = ['md', 'markdown', 'mkd']
     extensions = ['extra', 'meta', 'tables', 'toc', 'admonition']
 
+    def __init__(self, fragment_path):
+        self.fragments = {}
+        for filename in os.listdir(fragment_path):
+            self.fragments[filename] = codecs.open(os.path.join(fragment_path, filename), encoding='utf').read()
+
     def _parse_metadata(self, meta):
         """Return the dict containing document metadata"""
         md = Markdown(extensions=self.extensions)
@@ -53,6 +58,8 @@ class MarkdownReader(object):
     def read(self, source_path):
         """Parse content and metadata of markdown files"""
         text = codecs.open(source_path, encoding='utf').read()
+        for key in self.fragments:
+            text = text.replace("~~%s~~" % key, self.fragments[key])
         md = Markdown(extensions=self.extensions)
         content = md.convert(text)
 
@@ -107,7 +114,7 @@ NAVIGATION = (
 def build():
     "Build the documents"
     logging.info('Start building')
-    reader = MarkdownReader()
+    reader = MarkdownReader(os.path.join(SOURCE_PATH, 'fragments'))
     writer = HTMLWriter(BUILD_PATH, Template(codecs.open('base.html', encoding='utf').read()))
     for filename in os.listdir(SOURCE_PATH):
         base, ext = os.path.splitext(filename)

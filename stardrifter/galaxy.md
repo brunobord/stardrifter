@@ -75,16 +75,7 @@ Prices vary, but the reference is "Capital Price", that is to say the "Street pr
 when you're on Capital Planet. On each planet, we will have to adjust the price
 according to the natural resources available on the planet.
 
-| Roll | Factor  |
-|:---- |:--------|
-| 2    | 0.50    | 
-| 3    | 0.75    |
-| 4    | 1.00    |
-| 5-8  | 1.25    |
-| 9    | 1.50    |
-| 10   | 2.00    |
-| 11   | 2.50    |
-| 12   | 3.00    |
+~~t-galaxy-price-factors.md~~
 
 
 !!! note "Round the price" 
@@ -95,17 +86,7 @@ according to the natural resources available on the planet.
 
 Price is per cargo unit.
 
-| Merchandise                | Price   |
-|:-------------------------- |--------:|
-| Vegetable food             | 100     |
-| Animal food (meat)         | 125     |
-| Construction materials     | 200     |
-| Tools, mechanics           | 200     |
-| Electronics                | 150     | 
-| Energy                     | 200     |
-| Weapons                    | 1000    |
-| Slaves                     | 2000    |
-| Drugs                      | 2000    |
+~~t-capital-prices.md~
 
 
 ## Prices on Danbrilldal
@@ -113,6 +94,7 @@ Price is per cargo unit.
 > **Solo example**
 > I'm rolling for "Street prices" on Danbrilldal.
 >
+
 
 | Merchandise                | Central | Roll | Factor | Final price |
 |:-------------------------- |--------:|-----:|-------:|------------:|

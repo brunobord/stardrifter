@@ -14,12 +14,7 @@ see how much credit you have and what is your *Negociate* score.
 Every time you want to buy things, you first pick the item and the quantity you
 want to buy. Then you *roll+Negociate*. See the result below:
 
-| Roll       | Result                                                     |
-|:---------- |:-----------------------------------------------------------|
-| 6 or less  | The item you want to buy is 25% more expensive             | 
-| 7-9        | The item you want to buy is available at its normal price  |
-| 10 or more | The item you want to buy is 25% less expensive             |
-
+~~t-marketplace-price-modifiers.md~~
 
 > Dante Hewett has 4000 credits, poor Negociation skills (-1) and has a full
 > cargo load available (4 units). He's now on the Planet Danbrilldal. He wants 

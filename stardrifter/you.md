@@ -92,13 +92,7 @@ and spent in other weaponry, armor and fuel for your pirate ship.
 All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
 to tell where you're from:
 
-### Table 1.1: Origins
-
-| Roll | Origin            |
-|:---- |:------------------|
-| 1-2  | Capital planet    | 
-| 3-5  | The Surroundings  |
-| 6    | The Outer Arms    |
+~~t-you-origins.md~~
 
 ### Capital planet
 
