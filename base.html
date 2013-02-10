@@ -18,8 +18,11 @@
 		<section class="span3">
 			<ul class="nav nav-list">
 				<li {% if current == 'intro' %}class="active"{% endif %}><a href="{{ path_prefix }}/">Home</a>
-				{% for key, label in navigation %}
-				<li {% if key == current %}class="active"{% endif %}><a href="{{ path_prefix }}/{{ key }}/">{{ label }}</a></li>
+				{% for item in navigation recursive %}
+				<li {% if item['url'] == current %}class="active"{% endif %}><a href="{{ path_prefix }}/{{ item['url'] }}/">{{ item['caption'] }}</a></li>
+				{%- if item.children -%}
+				<ul class="nav nav-list">{{ loop(item.children) }}</ul>
+				{%- endif -%}
 				{% endfor %}
 			</ul>
 		</section>
