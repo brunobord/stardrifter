@@ -50,10 +50,12 @@ poor, but she's your best friend.
 
 Please take note of these stats:
 
-* -1 Armor,
-* -1 Weaponry,
-* 4 cargo load,
-* 100 energy units
+~~t-starting-ship-stats.md~~
+
+!!! note
+
+    Please note that your ship **maximum** energy is 100 (until you improve it
+    by adding extra energy units).
 
 You are now ready to [start your adventure][adventure]!
 

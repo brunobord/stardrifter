@@ -86,7 +86,7 @@ according to the natural resources available on the planet.
 
 Price is per cargo unit.
 
-~~t-capital-prices.md~
+~~t-capital-prices.md~~
 
 
 ## Prices on Danbrilldal

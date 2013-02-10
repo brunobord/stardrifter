@@ -101,6 +101,7 @@ def quiet_mkdir(path):
 
 
 NAVIGATION = (
+    {'url': "quickstart", 'caption': 'Quickstart'},
     {'url': 'you', 'caption': 'Your character'},
     {'url': 'ship', 'caption': 'Your ship'},
     {'url': 'adventure', 'caption': 'Adventure', 'children': (

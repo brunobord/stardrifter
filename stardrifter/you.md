@@ -124,11 +124,7 @@ Galactic Lore.
 At the beginning of the game, your character has a basic ship (see the "Ship"
 chapter for more details), and a few credits.
 
-!!! rule "Roll for wealth" 
-    * Roll 1D6,
-    * Add +2 if you come from the Central Planet, +1 if you come from the
-      Surroundings.
-    * Multiply this result by 1000, and there are your credits
+~~r-roll-wealth.md~~
 
 
 > **Solo example**
