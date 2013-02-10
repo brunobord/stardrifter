@@ -94,13 +94,13 @@ def quiet_mkdir(path):
 
 
 NAVIGATION = (
-    {'url': 'you', 'caption': 'You & your ship'},
+    {'url': 'you', 'caption': 'Your character'},
+    {'url': 'ship', 'caption': 'Your ship'},
     {'url': 'adventure', 'caption': 'Adventure', 'children': (
         {'url': 'marketplace', 'caption': 'Marketplace'},
         {'url': 'travel', 'caption': 'Space Travel'},
     )},
     {'url': 'galaxy', 'caption': 'Galaxy Generator'},
-
 )
 
 
