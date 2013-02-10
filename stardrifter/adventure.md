@@ -1,6 +1,6 @@
 Title: Adventure
 
-# If you are just starting your adventure...
+# Starting your adventure...
 
 Welcome to this Galaxy! You know who you are, and what are your posessions /
 wealth, but... Where are you exactly? You'll need to find out first. Please go
