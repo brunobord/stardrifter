@@ -8,37 +8,40 @@
 	<link rel="stylesheet" href="../static/css/stardrifter.css">
 </head>
 <body>
-<div class="container-narrow">
-	<div class="navbar">
-		<div class="navbar-inner">
-		<ul class="nav">
-			<li ><a href="../">Home</a>
-			
-			<li ><a href="../you/">You & your ship</a></li>
-			
-			<li ><a href="../adventure/">Adventure</a></li>
-			
-			<li class="active"><a href="../galaxy/">Galaxy Generator</a></li>
-			
-		</ul>
-		</div>
+<div class="container">
+
+	<div class="row page-header">
+		<h1>The Galaxy World Generator</h1>
 	</div>
-	<article>
-	<h1 id="galaxy-world-generator">Galaxy World Generator</h1>
-<p>The basic idea behind Stardrifter is that one can play it without preparation,
+
+	<div class="row">
+		<section class="span3">
+			<ul class="nav nav-list">
+				<li ><a href="../">Home</a>
+				
+				<li ><a href="../you/">You & your ship</a></li>
+				<li ><a href="../adventure/">Adventure</a></li><ul class="nav nav-list">
+				<li ><a href="../marketplace/">Marketplace</a></li>
+				<li ><a href="../travel/">Space Travel</a></li></ul>
+				<li class="active"><a href="../galaxy/">Galaxy Generator</a></li>
+			</ul>
+		</section>
+
+		<article class="span9">
+			<p>The basic idea behind Stardrifter is that one can play it without preparation,
 without having to previously generate Planets, Worlds, beforehand.</p>
 <p>At the beginning of the game, you'll have to roll for your initial location.
 Everytime you'll want to go from where you are to a <strong>new planet</strong>, you'll have
 to roll to generate a new world.</p>
-<h2 id="how-to-draw-the-galaxy-map">How to draw the Galaxy map</h2>
+<h1 id="how-to-draw-the-galaxy-map">How to draw the Galaxy map</h1>
 <p>The easiest way to draw your Galactic map will be to use <a href="https://en.wikipedia.org/wiki/Hex_map">Hex Maps</a>.
 You'll find tons of HexMap generators, including PDFs you may want to print
 before starting to play.</p>
-<h2 id="a-new-world">A new World</h2>
+<h1 id="a-new-world">A new World</h1>
 <p>Whatever it is, you initial location or your next destination, you'll have to
 follow a few steps to generate a new World.</p>
 <p>Pick a "World sheet" (you can use a simple index card if you want).</p>
-<h3 id="1-name-your-world">1. Name your world</h3>
+<h2 id="1-name-your-world">1. Name your world</h2>
 <p>It has to be "Cosmologic". e.g.: Beta Hydri Major, Araknor, Rhat'hiiy'y, etc.
 Use your imagination, there's no established rule. Pick random numbers if you
 want. The name of the planet has to be unique, to be able to retrieve its sheet
@@ -50,7 +53,7 @@ later on. Again, on the Web, you will find many Planet name generators.</p>
 </blockquote>
 <p>Grab your Hex Map. If this world is you Initial Location, and draw a spot in the
 middle of the map, and write the name of the planet beside.</p>
-<h3 id="2-distance">2. Distance</h3>
+<h2 id="2-distance">2. Distance</h2>
 <div class="admonition note">
 <p class="admonition-title">Skip it</p>
 <p>You can skip this step if its your Initial Location.</p>
@@ -59,10 +62,10 @@ middle of the map, and write the name of the planet beside.</p>
 <p>Roll 2D6: it's the distance, in "parsecs" from your location to the other one.
 Grab your Hex Map. Each Hexagon equals a "parsec". Thus, it should be separated
 by the same number of hexes than the distance you've just rolled.</p>
-<h3 id="3-wealth-resources-stuff">3. Wealth, resources, stuff</h3>
+<h2 id="3-wealth-resources-stuff">3. Wealth, resources, stuff</h2>
 <p>Since not every planet is equal, you are likely to find some resources on one
 planet, and some are rare. You'll have to roll for each possible resource:</p>
-<h4 id="legal-resources">Legal resources</h4>
+<h3 id="legal-resources">Legal resources</h3>
 <ol>
 <li>Vegetable food </li>
 <li>Animal food (meat)</li>
@@ -71,14 +74,14 @@ planet, and some are rare. You'll have to roll for each possible resource:</p>
 <li>Electronic stuff</li>
 <li>Energy</li>
 </ol>
-<h4 id="illegal-resources">Illegal resources</h4>
+<h3 id="illegal-resources">Illegal resources</h3>
 <ol>
 <li>Weapons</li>
 <li>Slaves</li>
 <li>Drugs</li>
 </ol>
 <p>Roll 2D6 for each and write its score on the World sheet.</p>
-<h4 id="a-quick-note-about-prices">A quick note about prices</h4>
+<h3 id="a-quick-note-about-prices">A quick note about prices</h3>
 <p>Prices vary, but the reference is "Capital Price", that is to say the "Street price"
 when you're on Capital Planet. On each planet, we will have to adjust the price
 according to the natural resources available on the planet.</p>
@@ -129,7 +132,7 @@ according to the natural resources available on the planet.</p>
 <p>Please note that the prices will be rounded down. e.g.:
 150 * 1.25 = 187.5 = 187</p>
 </div>
-<h3 id="capital-prices">Capital prices</h3>
+<h2 id="capital-prices">Capital prices</h2>
 <p>Price is per cargo unit.</p>
 <table>
 <thead>
@@ -177,7 +180,7 @@ according to the natural resources available on the planet.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="prices-on-danbrilldal">Prices on Danbrilldal</h3>
+<h2 id="prices-on-danbrilldal">Prices on Danbrilldal</h2>
 <blockquote>
 <p><strong>Solo example</strong>
 I'm rolling for "Street prices" on Danbrilldal.</p>
@@ -271,13 +274,17 @@ you want to make it a bit more accurate, prices can change over time.</p>
 <p>When you come back to a World, make a re-roll for every good available, and note
 its new price. Sometimes they may go up, sometimes down.</p>
 </div>
-	</article>
+		</article>
 
+	</div>
+
+	<section class="row">
 	<footer class="footer">
 		<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Stardrifter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://brunobord.github.com/stardrifter/" property="cc:attributionName" rel="cc:attributionURL">Bruno Bord</a> is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
-		<p><small>Generated on Sun, 10 Feb 2013 18:50</small></p>
+		<p><small>Generated on Sun, 10 Feb 2013 21:26</small></p>
 	</footer>
+	</section>
 </div>
 
 <script type="text/javascript" src="../static/js/jquery.min.js"></script>

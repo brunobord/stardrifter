@@ -8,28 +8,32 @@
 	<link rel="stylesheet" href="../static/css/stardrifter.css">
 </head>
 <body>
-<div class="container-narrow">
-	<div class="navbar">
-		<div class="navbar-inner">
-		<ul class="nav">
-			<li ><a href="../">Home</a>
-			
-			<li class="active"><a href="../you/">You & your ship</a></li>
-			
-			<li ><a href="../adventure/">Adventure</a></li>
-			
-			<li ><a href="../galaxy/">Galaxy Generator</a></li>
-			
-		</ul>
-		</div>
+<div class="container">
+
+	<div class="row page-header">
+		<h1>You & your ship</h1>
 	</div>
-	<article>
-	<h1 id="you-are">You are...</h1>
-<p>You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
+
+	<div class="row">
+		<section class="span3">
+			<ul class="nav nav-list">
+				<li ><a href="../">Home</a>
+				
+				<li class="active"><a href="../you/">You & your ship</a></li>
+				<li ><a href="../adventure/">Adventure</a></li><ul class="nav nav-list">
+				<li ><a href="../marketplace/">Marketplace</a></li>
+				<li ><a href="../travel/">Space Travel</a></li></ul>
+				<li ><a href="../galaxy/">Galaxy Generator</a></li>
+			</ul>
+		</section>
+
+		<article class="span9">
+			<p>You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
 planet to planet in the deep space with a full load of merchandise, to be sold
 at the best price, and you may buy some more on other worlds. Or, if you want to
 dive into piracy, you may try to attack space cargos and steal them.</p>
 <p>You'll first need to work a few things out before starting your adventure:</p>
+<h1 id="build-your-character">Build your character</h1>
 <h2 id="pick-a-name">Pick a name</h2>
 <p>Well... it's a solo game, but please, no, don't pick "Han Solo".</p>
 <h2 id="your-stats">Your stats</h2>
@@ -37,7 +41,7 @@ dive into piracy, you may try to attack space cargos and steal them.</p>
 <h3 id="negociate">Negociate</h3>
 <p>A bit of charm, a bit of persuasion. Useful when you want to bargain, discuss
 with Space Patrol officiers who want to snatch you or parley with Pirates.</p>
-<h3 id="pilot">Pilot</h3>
+<h3 id="drift">Drift</h3>
 <p>The knowledge of physics, astrophysics, hyperdrive and space-travel, combined
 with the combat/tactics science of dodging and escaping when involved in space
 fight.</p>
@@ -76,7 +80,7 @@ care of bad encounters on your way.</p>
 cargo, sometimes you know it's illegal. Space patrols don't like you and they
 just dream to snatch you as soon as they could.</p>
 <div class="admonition rule">
-<p>Apply a +1 to Pilot, -1 to Reputation, +1 to Negociate.</p>
+<p>Apply a +1 to Drift, -1 to Reputation, +1 to Negociate.</p>
 </div>
 <h3 id="pirate">Pirate</h3>
 <p>PLANET AHOY! you don't want a patron, you don't want to deal with
@@ -84,7 +88,7 @@ customers. Life is short! You'll only have to let yourself drift between
 stars, waiting for poor innocent traders to be raided. Your loot will be drunk
 and spent in other weaponry, armor and fuel for your pirate ship.</p>
 <div class="admonition rule">
-<p>Apply a +1 to Fight, -1 to Reputation, +1 to Pilot.</p>
+<p>Apply a +1 to Fight, -1 to Reputation, +1 to Drift.</p>
 </div>
 <h2 id="your-origin">Your origin</h2>
 <p>All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
@@ -122,7 +126,7 @@ richest place in the Galaxy. You are educated and versed in the Galactic Lore.</
 <p>You come from close-from-the center planets. They're usually quite rich areas,
 but not as rich as Capital Planet.</p>
 <div class="admonition rule">
-<p>Add +1 to Pilot.</p>
+<p>Add +1 to Drift.</p>
 </div>
 <h3 id="the-outer-arms">The Outer Arms</h3>
 <p>Some of the coldest and farthest worlds in the Galaxy. Your world is a hard
@@ -152,7 +156,7 @@ too gentle.  </p>
 <ul>
 <li>Negociate: -2</li>
 <li>Reputation: -1</li>
-<li>Pilot: +1</li>
+<li>Drift: +1</li>
 <li>Fight: 0</li>
 </ul>
 <p>I'm now rolling for Origins: it's a <em>3</em>. Dante is coming from the Surroundings,
@@ -161,10 +165,10 @@ so I am applying both Class and Origin modifiers.</p>
 <ul>
 <li>Negociate: -1</li>
 <li>Reputation: -2</li>
-<li>Pilot: +3</li>
+<li>Drift: +3</li>
 <li>Fight: 0</li>
 </ul>
-<p>Well, it looks like I'm a hell of a pilot, but my tongue is not as skillful.</p>
+<p>Well, it looks like I'm a hell of a drifter, but my tongue is not as skillful.</p>
 <p>I'm now rolling for wealth: it's a <em>3</em> again. I'm adding 1, since Hewett's
 coming from the Surroundings, and here's my money: 4000 credits.</p>
 </blockquote>
@@ -177,13 +181,13 @@ is a failure. A result between 7 and 9 will be a partial success ; you'll succee
 but you'll experience little drawbacks.</p>
 <blockquote>
 <p><strong>Solo Example</strong></p>
-<p>Dante is being asked to <em>roll+Pilot</em> to perform evasive maneuvers.
-He rolls 1 and 6, and adds his <em>Pilot</em> score (+3). That's a 10. His roll is 
+<p>Dante is being asked to <em>roll+Drift</em> to perform evasive maneuvers.
+He rolls 1 and 6, and adds his <em>Drift</em> score (+3). That's a 10. His roll is 
 successful, he manages to escape without trouble.</p>
 </blockquote>
 <p>Now we're going to look after your "only" friend: your spaceship.</p>
 <hr />
-<h1 id="your-ship">Your ship</h1>
+<h1 id="build-your-ship">Build Your ship</h1>
 <p>You own a spaceship. Right now, she's a basic/normal cargo, with a limited load,
 limited armor, limited weapons. But she "does the job" pretty well, for now.</p>
 <p>Of course, during the game, you'll have the opportunity to improve her, by buying
@@ -222,12 +226,12 @@ poor, but she's your best friend.</p>
 </ul>
 <p>You are now ready to <a href="../adventure/">start your adventure</a>!</p>
 <hr />
-<h2 id="summary">Summary</h2>
+<h1 id="summary">Summary</h1>
 <div class="admonition rule">
 <p class="admonition-title">Character creation summary</p>
 <ul>
 <li>Pick a name</li>
-<li>Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Pilot, Fight, Reputation.</li>
+<li>Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Drift, Fight, Reputation.</li>
 <li>Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class</li>
 <li>Roll for origin and adjust modifiers according to your Origin</li>
 <li>Roll for wealth (and adjust with Origin)</li>
@@ -236,13 +240,17 @@ poor, but she's your best friend.</p>
 </ul>
 </div>
 <p>Now let's <a href="../adventure/">start your adventure</a>!</p>
-	</article>
+		</article>
 
+	</div>
+
+	<section class="row">
 	<footer class="footer">
 		<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Stardrifter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://brunobord.github.com/stardrifter/" property="cc:attributionName" rel="cc:attributionURL">Bruno Bord</a> is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
-		<p><small>Generated on Sun, 10 Feb 2013 18:50</small></p>
+		<p><small>Generated on Sun, 10 Feb 2013 21:26</small></p>
 	</footer>
+	</section>
 </div>
 
 <script type="text/javascript" src="../static/js/jquery.min.js"></script>
