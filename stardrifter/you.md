@@ -22,7 +22,7 @@ Each character has stats, of course.
 A bit of charm, a bit of persuasion. Useful when you want to bargain, discuss
 with Space Patrol officiers who want to snatch you or parley with Pirates.
 
-### Pilot
+### Drift
 
 The knowledge of physics, astrophysics, hyperdrive and space-travel, combined
 with the combat/tactics science of dodging and escaping when involved in space
@@ -75,7 +75,7 @@ cargo, sometimes you know it's illegal. Space patrols don't like you and they
 just dream to snatch you as soon as they could.
 
 !!! rule ""
-    Apply a +1 to Pilot, -1 to Reputation, +1 to Negociate.
+    Apply a +1 to Drift, -1 to Reputation, +1 to Negociate.
 
 ### Pirate
 
@@ -85,7 +85,7 @@ stars, waiting for poor innocent traders to be raided. Your loot will be drunk
 and spent in other weaponry, armor and fuel for your pirate ship.
 
 !!! rule "" 
-    Apply a +1 to Fight, -1 to Reputation, +1 to Pilot.
+    Apply a +1 to Fight, -1 to Reputation, +1 to Drift.
 
 ## Your origin
 
@@ -114,7 +114,7 @@ You come from close-from-the center planets. They're usually quite rich areas,
 but not as rich as Capital Planet.
 
 !!! rule "" 
-    Add +1 to Pilot.
+    Add +1 to Drift.
 
 ### The Outer Arms
 
@@ -147,7 +147,7 @@ chapter for more details), and a few credits.
 >
 > * Negociate: -2
 > * Reputation: -1
-> * Pilot: +1
+> * Drift: +1
 > * Fight: 0
 >
 >
@@ -158,10 +158,10 @@ chapter for more details), and a few credits.
 > 
 > * Negociate: -1
 > * Reputation: -2
-> * Pilot: +3
+> * Drift: +3
 > * Fight: 0
 >
-> Well, it looks like I'm a hell of a pilot, but my tongue is not as skillful.
+> Well, it looks like I'm a hell of a drifter, but my tongue is not as skillful.
 >
 > I'm now rolling for wealth: it's a *3* again. I'm adding 1, since Hewett's
 > coming from the Surroundings, and here's my money: 4000 credits.
@@ -178,8 +178,8 @@ but you'll experience little drawbacks.
 
 > **Solo Example**
 >
-> Dante is being asked to *roll+Pilot* to perform evasive maneuvers.
-> He rolls 1 and 6, and adds his *Pilot* score (+3). That's a 10. His roll is 
+> Dante is being asked to *roll+Drift* to perform evasive maneuvers.
+> He rolls 1 and 6, and adds his *Drift* score (+3). That's a 10. His roll is 
 > successful, he manages to escape without trouble.
 
 Now we're going to look after your "only" friend: your spaceship.
@@ -250,7 +250,7 @@ You are now ready to [start your adventure][adventure]!
 !!! rule "Character creation summary" 
 
     * Pick a name
-    * Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Pilot, Fight, Reputation.
+    * Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Drift, Fight, Reputation.
     * Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class
     * Roll for origin and adjust modifiers according to your Origin
     * Roll for wealth (and adjust with Origin)
