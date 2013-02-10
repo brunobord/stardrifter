@@ -166,7 +166,23 @@ chapter for more details), and a few credits.
 > I'm now rolling for wealth: it's a *3* again. I'm adding 1, since Hewett's
 > coming from the Surroundings, and here's my money: 4000 credits.
 
-Now we're going to look after your "only" friend: your spaceship
+## How to use your stats?
+
+During the game, you'll be asked to roll dice associated with a stat. The roll
+will be noted: *roll+Negociate*, or *roll+Reputation*.
+
+It means you'll have to roll two 6-side-dice and add the designated stat to it.
+Usually, a result with 10 or more will be a success ; a result with 6 or less
+is a failure. A result between 7 and 9 will be a partial success ; you'll succeed,
+but you'll experience little drawbacks.
+
+> **Solo Example**
+>
+> Dante is being asked to *roll+Pilot* to perform evasive maneuvers.
+> He rolls 1 and 6, and adds his *Pilot* score (+3). That's a 10. His roll is 
+> successful, he manages to escape without trouble.
+
+Now we're going to look after your "only" friend: your spaceship.
 
 ----
 
