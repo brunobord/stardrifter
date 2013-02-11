@@ -47,3 +47,6 @@ pre, code, table, tr, td, th {
   font-size: 1.3em;
   font-weight: bold;
 }
+td.center, th.center {
+  text-align: center;
+}
