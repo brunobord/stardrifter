@@ -123,5 +123,19 @@ Your World is now complete. Enjoy your stay!
     When you come back to a World, make a re-roll for every good available, and note
     its new price. Sometimes they may go up, sometimes down.
 
+!!!rule "Alternate rule to the Alternate rule"
+    
+    When you come back to a World, you roll 1D4-2 for **each product**, and
+    apply this score **to the product SCORE**, and then apply the new modifier,
+    if it has changed.
+
+    > e.g.: Vegetable food have a score of "7". When Dante will return, he rolls
+    > 1D4-2...
+    >
+    > The dice says "4", thus becoming **+2**. Vegetable food has now a score of **9**.
+    > The new modifier is now **1.5**.
+    >
+    > Danbrilldal's price for Vegetable Food is now **150 credits / unit**.
+
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
 [marketplace]: ../marketplace/
