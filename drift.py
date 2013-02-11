@@ -111,7 +111,6 @@ NAVIGATION = (
         {'url': 'travel', 'caption': 'Space Travel'},
     )},
     {'url': 'galaxy', 'caption': 'Galaxy Generator'},
-    # Handouts (sheets)
 )
 
 
