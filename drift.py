@@ -119,7 +119,7 @@ def build():
     "Build the documents"
     logging.info('Start building')
     reader = MarkdownReader(os.path.join(SOURCE_PATH, 'fragments'))
-    writer = HTMLWriter(BUILD_PATH, Template(codecs.open('base.html', encoding='utf').read()))
+    writer = HTMLWriter(BUILD_PATH, Template(codecs.open('templates/base.html', encoding='utf').read()))
     for filename in os.listdir(SOURCE_PATH):
         base, ext = os.path.splitext(filename)
         if ext == '.md':
