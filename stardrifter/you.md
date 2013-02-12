@@ -172,6 +172,13 @@ but you'll experience little drawbacks.
 > He rolls 1 and 6, and adds his *Drift* score (+3). That's a 10. His roll is 
 > successful, he manages to escape without trouble.
 
+It may happen that you'll have to roll+Reputation **or** roll-Reputation.
+
+> Let's imagine that a character Reputation equals to "-2". Rolling roll+Reputation
+> means it'll be a "-2 roll". If it's being asked to roll-Reputation, it means
+> its a "+2 roll".
+
+
 Now we're going to look after your "only" friend: [your spaceship][ship].
 
 
