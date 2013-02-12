@@ -3,6 +3,14 @@ Title: Quickstart
 Are you in a hurry? do you already know what to do to play Stardrifter? Here's
 a quick summary of what you'll have to do to build a Stardrifter.
 
+# What do I need to play?
+
+* At least two 6-side dice, and eventually one 4-side die.
+* Pen, erasers, papers,
+* You may want to print a Character sheet, a Ship sheet and a handful of World
+  sheets. Or alternatively, take a stack of simple index cards where you'll write
+  stats on.
+
 # Character
 
 1 - Pick a name
