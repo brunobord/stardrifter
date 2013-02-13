@@ -111,6 +111,7 @@ NAVIGATION = (
         {'url': 'travel', 'caption': 'Space Travel'},
     )},
     {'url': 'galaxy', 'caption': 'Galaxy Generator'},
+    {'url': "credits", 'caption': "Credits"},
 )
 
 
