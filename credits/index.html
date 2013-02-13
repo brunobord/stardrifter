@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Quickstart</title>
+	<title>Credits</title>
 	<link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="../static/css/bootstrap-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Iceland|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -13,7 +13,7 @@
 <div class="container">
 
 	<div class="row page-header">
-		<h1>Quickstart</h1>
+		<h1>Credits</h1>
 	</div>
 
 	<div class="row">
@@ -26,7 +26,7 @@
 				
 				
 				
-					<li class="active"><a href="../quickstart/">Quickstart</a></li>
+					<li ><a href="../quickstart/">Quickstart</a></li>
 				
 				
 					<li ><a href="../you/">Your character</a></li>
@@ -51,7 +51,7 @@
 					<li ><a href="../galaxy/">Galaxy Generator</a></li>
 				
 				
-					<li ><a href="../credits/">Credits</a></li>
+					<li class="active"><a href="../credits/">Credits</a></li>
 				
 				<li class="nav-header">Handouts</li>
 				<li><a href="../static/sheets/character.html">Character Sheet</a></li>
@@ -62,109 +62,28 @@
 		</section>
 
 		<article class="span9">
-			<p>Are you in a hurry? do you already know what to do to play Stardrifter? Here's
-a quick summary of what you'll have to do to build a Stardrifter.</p>
-<h1 id="what-do-i-need-to-play">What do I need to play?</h1>
+			<p>This game is designed by Bruno Bord, with the kind support of his family.</p>
+<h2 id="inspirations">Inspirations</h2>
+<p>It borrows a lot from <a href="http://boardgamegeek.com/boardgame/42361/pocket-dungeon">Pocket Dungeon</a>, by Jonathan Gilmour, 
+especially the point where Worlds are created "during the game", on the go.</p>
+<p>It shares bits with <a href="http://www.mongoosepublishing.com/rpgs/stars-without-number.html">Stars Without Numbers</a>, with its very extensive World /
+Culture Generator. Of course, Stardrifter will never reach that level of details,
+but stil, Stars Without Numbers sandboxing is an excellent resource.</p>
+<p>You may remember a 1993 video-game called <a href="https://en.wikipedia.org/wiki/Wing_Commander%3A_Privateer">Privateer</a>. Stardrifter can be
+considered as a solo tabletop version of Privateer.</p>
+<h2 id="under-the-hood">Under the hood</h2>
+<p>This game is being edited with <a href="http://www.sublimetext.com/2">Sublime Text 2</a>, using
+<a href="https://help.github.com/articles/github-flavored-markdown">Github-flavoured Markdown</a>.</p>
+<p>The HTML templates are built around <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, and gracefully
+rendered by <a href="http://jinja.pocoo.org/">Jinja2</a>, using the power of a tiny <a href="http://python.org">Python</a> script.</p>
+<p>I'm only using four webfonts to avoid the ugly Verdana or worse, Papyrus:</p>
 <ul>
-<li>At least two 6-side dice, and eventually one 4-side die.</li>
-<li>Pen, erasers, papers,</li>
-<li>You may want to print a Character sheet, a Ship sheet and a handful of World
-  sheets. Or alternatively, take a stack of simple index cards where you'll write
-  stats on.</li>
+<li><a href="http://www.ffonts.net/Iceland.font">Iceland</a> for titles,</li>
+<li><a href="https://en.wikipedia.org/wiki/Droid_fonts">Droid Sans</a> for the main text,</li>
+<li><a href="https://en.wikipedia.org/wiki/Droid_fonts">Droid Sans Mono</a> for the monospaced text (notes, tables, etc),</li>
+<li><a href="http://font.ubuntu.com/">Ubuntu</a> for quotes.</li>
 </ul>
-<h1 id="character">Character</h1>
-<p>1 - Pick a name</p>
-<p>2 - Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Drift, Fight, Reputation.</p>
-<p>3 - Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class</p>
-<table>
-<thead>
-<tr>
-<th align="left">Class</th>
-<th align="right">Modifiers</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Merchant</td>
-<td align="right">+1 Negociate, -1 Fight, +1 Reputation</td>
-</tr>
-<tr>
-<td align="left">Smuggler</td>
-<td align="right">+1 Drift, -1 Reputation, +1 Negociate</td>
-</tr>
-<tr>
-<td align="left">Pirate</td>
-<td align="right">+1 Fight, -1 Reputation, +1 Drift</td>
-</tr>
-</tbody>
-</table>
-<p>4 - Roll for origin and adjust modifiers according to your Origin</p>
-<table>
-<thead>
-<tr>
-<th align="left">Roll</th>
-<th align="left">Origin</th>
-<th align="left">Modifier</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">1-2</td>
-<td align="left">Capital planet</td>
-<td align="left">+1 Negociate</td>
-</tr>
-<tr>
-<td align="left">3-5</td>
-<td align="left">The Surroundings</td>
-<td align="left">+1 Drift</td>
-</tr>
-<tr>
-<td align="left">6</td>
-<td align="left">The Outer Arms</td>
-<td align="left">+1 Fight</td>
-</tr>
-</tbody>
-</table>
-<p>5 - Roll for wealth</p>
-<div class="admonition rule">
-<p class="admonition-title">Roll for wealth</p>
-<ul>
-<li>Roll 1D6,</li>
-<li>Add +2 if you come from the Central Planet, +1 if you come from the
-  Surroundings.</li>
-<li>Multiply this result by 1000, and there are your credits</li>
-</ul>
-</div>
-<h1 id="ship">Ship</h1>
-<p>1 - Pick a name for your ship</p>
-<p>2 - Assign modifers to her stats: Armor and Weaponry, and set her cargo load and energy.</p>
-<p>A starting ship has:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Stat</th>
-<th align="right">Score</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Armor</td>
-<td align="right">-1</td>
-</tr>
-<tr>
-<td align="left">Weaponry</td>
-<td align="right">-1</td>
-</tr>
-<tr>
-<td align="left">Cargo</td>
-<td align="right">4 units</td>
-</tr>
-<tr>
-<td align="left">Energy</td>
-<td align="right">100 units</td>
-</tr>
-</tbody>
-</table>
+<p>All these webfonts are provided by <a href="http://www.google.com/webfonts">Google Webfonts</a></p>
 		</article>
 
 	</div>
