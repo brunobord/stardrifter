@@ -32,6 +32,8 @@ I'm only using four webfonts to avoid the ugly Verdana or worse, Papyrus:
 
 All these webfonts are provided by [Google Webfonts][]
 
+The Hex Map is rendered using [this SVG experiment][hexmap-ref], by Josh Bassett.
+
 [Pocket Dungeon]: http://boardgamegeek.com/boardgame/42361/pocket-dungeon
 [Stars Without Numbers]: http://www.mongoosepublishing.com/rpgs/stars-without-number.html
 [Sublime Text 2]: http://www.sublimetext.com/2
@@ -44,3 +46,4 @@ All these webfonts are provided by [Google Webfonts][]
 [Droid]: https://en.wikipedia.org/wiki/Droid_fonts
 [Iceland]: http://www.ffonts.net/Iceland.font
 [Privateer]: https://en.wikipedia.org/wiki/Wing_Commander%3A_Privateer
+[hexmap-ref]: https://github.com/nullobject/svg-experiments/blob/master/hex-grid.html
