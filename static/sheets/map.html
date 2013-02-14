@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Stardrifter: Galaxy Map</title>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Iceland|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../static/css/stardrifter.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript" src="../../static/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../static/js/coffee-script.js"></script>
+<script type="text/javascript" src="../../static/js/backbone-0.5.3.min.js"></script>
+<script type="text/javascript" src="../../static/js/d3.min.js"></script>
+<script type="text/coffeescript" src="../../static/js/hex-grid.coffee"></script>
+<style type="text/css">
+      #hex-tile polygon {
+        fill: #fefefe;
+        stroke: #000;
+        opacity: 1;
+      }
+
+      #hex-grid {
+        stroke: gray;
+        stroke-opacity: 1;
+        shape-rendering: crispEdges;
+      }
+
+      h1 {
+          position: absolute;
+          top: 10px;
+          z-index: 9999;
+          color: #444;
+          opacity: .65;
+          background-color: #fff;
+          margin: 0;
+          padding: 14px;
+      }
+      .drift {
+          margin-top: 10px;
+      }
+</style>
+
+    <script type="text/coffeescript">
+      $(document).ready ->
+        hexGrid = new HexGrid(2000, 120, 15, .7)
+    </script>
+
+</head>
+<body>
+<header>
+    <h1>Stardrifter: Galaxy Map</h1>
+</header>
+
+<div class="drift">
+<svg width="1024px" height="580px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="hex-tile" patternUnits="userSpaceOnUse"></pattern>
+      </defs>
+      <rect id="hex-grid" fill="url(#hex-tile)" />
+</svg>
+</div>
+
+<footer class="footer" style="margin-top: 0; padding: 0;">
+    <p>Stardrifter by Bruno Bord is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
+    <p><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></p>
+</footer>
+
+</body>
+</html>
