@@ -36,5 +36,22 @@ trouble?
 > I sent them a last call before re-entering Hyperspace: "I told you... You
 > should have accepted my offer".
 
+Your imagination and creativity is the limit. Why not publishing these story
+bits on a weblog? make an ebook, share it with everyone? Don't be shy, don't be
+afraid. Since Stardrifter is under the terms of a very permissive Creative
+Commons License, you are *already* allowed to make this kind of derivative work.
+
+
+## Two players
+
+Stardrifter is meant to be a solo game. But you can play it head-to-head if you
+like. You can chose one player to be the Stardrifter, and the other one to
+represent "the Universe", i.e. *everything else*: other traders, Events,
+Ennemies. The other player can generate Worlds, too. Then it's the first
+player's choice to act as necessary.
+
+Why not Roleplaying scenes, from time to time? When you have to Negociate for
+merchandise, for example...
+
 
 [galaxy]: ../galaxy/
