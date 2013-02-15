@@ -53,7 +53,7 @@ Yes, when you add them, the result is negative. Hey, you're new in this game,
 don't you remember?
 
 Further then, you will pick a class and roll dice for your origin, and apply
-the designated modfiers.
+the designated modifiers.
 
 ## Your class
 

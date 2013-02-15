@@ -17,7 +17,7 @@ a quick summary of what you'll have to do to build a Stardrifter.
 
 2 - Assign modifiers (-2, -1, 0, +1) to your stats: Negociate, Drift, Fight, Reputation.
 
-3 - Pick a class (Merchant, Smuggler, Pirate) and adjust modfiers according to your class
+3 - Pick a class (Merchant, Smuggler, Pirate) and adjust modifiers according to your class
 
 | Class      | Modifiers                             |
 |:---------- |--------------------------------------:|
