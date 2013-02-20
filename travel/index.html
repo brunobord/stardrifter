@@ -66,8 +66,98 @@
 		</section>
 
 		<article class="span9">
-			<h1 id="travel">Travel</h1>
-<p>TODO: pilot and drift ; hazard encounters -&gt; links to "bad encounters".</p>
+			<h1 id="hyperspace-and-beyond">Hyperspace and beyond</h1>
+<p>You're going to spend a lot of time in your spaceship... Hopefully, not in real-
+time. Space travel has become easier, if not mundane. Jumping from a World to
+another is a matter of weeks, now.</p>
+<p>Have a look at your <a href="../static/sheets/map.html">Galactic Map</a>. Consider the distance between 2 worlds.
+To calculate its distance, you only have to count how many hexes you need to
+cross to get from one World to the other. Each hex is a parsec-wide.</p>
+<p>So, how long does it take? It takes three full weeks to make a parsec. Simple as
+it is. When you'll be able to <a href="../marketplace/">improve your ship hyperdrive</a>,
+you'll be able to reduce the time needed to travel a parsec.</p>
+<h1 id="travel">Travel</h1>
+<p>Here is how you travel from a World to another:</p>
+<ol>
+<li>calculate the distance in parsec.</li>
+<li>calculate the time required to cross this distance.</li>
+<li>roll+Drift to see if you did calculate properly your coordinates. see Drift table below for results. Adjust time required.</li>
+<li>for each week on board, roll on the Hazard Table.</li>
+<li>if something must happen (encounters, damages, etc), resolve the situation.</li>
+<li>substract 3 Energy points for this week on board.</li>
+<li>substract 20 credits from your Wealth to mesure the food and other material you've consumed.</li>
+</ol>
+<p>Repeat steps 4 to 7 for each week on board until you've arrived.</p>
+<h2 id="drift">Drift</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Roll</th>
+<th align="left">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">6 or less</td>
+<td align="left">You fail. Apply 1.5 factor to time and Energy consumed</td>
+</tr>
+<tr>
+<td align="left">7-9</td>
+<td align="left">It's okay, time and energy is unchanged</td>
+</tr>
+<tr>
+<td align="left">10 or more</td>
+<td align="left">Excellent Drifting, apply a 0.75 Energy consumed</td>
+</tr>
+</tbody>
+</table>
+<p>Results are rounded up.</p>
+<blockquote>
+<p>Dante wants to travel from Danbrilldal to Ordeïana, which is only 3 parsecs apart.
+Normal time required to get there should be:</p>
+<p>3 x 3 = 9 weeks</p>
+<p>Dante rolls+Drift, and despite his +3 Bonus, he does a 5. That's stupid, he
+did wrong calculations while he was thinking he could use better wormholes
+to get faster to his destination.</p>
+<p>Now it's 9 x 1.5 = 13.5, so it'll take <strong>14 weeks</strong> (rounded up). Very bad
+Drifting, dear Dante...</p>
+</blockquote>
+<h2 id="hazards">Hazards</h2>
+<p>You have to roll+Reputation to discover what happens this week.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Roll</th>
+<th align="left">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">3 and less</td>
+<td align="left">Attacked by Pirates</td>
+</tr>
+<tr>
+<td align="left">4-5</td>
+<td align="left">Approched by Pirates</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Engine dysfunction</td>
+</tr>
+<tr>
+<td align="left">7-9</td>
+<td align="left">Approched by Smugglers</td>
+</tr>
+<tr>
+<td align="left">10-11</td>
+<td align="left">Approched by Space Patrol</td>
+</tr>
+<tr>
+<td align="left">12 and more</td>
+<td align="left">Nothing happened</td>
+</tr>
+</tbody>
+</table>
 		</article>
 
 	</div>
@@ -77,7 +167,7 @@
 		<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Stardrifter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://brunobord.github.com/stardrifter/" property="cc:attributionName" rel="cc:attributionURL">Bruno Bord</a> is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
 		<p><a href="https://github.com/brunobord/stardrifter/">Fork this project on Github</a></p>
-		<p><small>Generated on Fri, 15 Feb 2013 22:40</small></p>
+		<p><small>Generated on Wed, 20 Feb 2013 22:53</small></p>
 	</footer>
 	</section>
 </div>
