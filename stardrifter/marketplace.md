@@ -47,7 +47,7 @@ want to buy. Then you *roll+Negociate*. See the result below:
 
 TODO
 
-# Take care of your ship
+# Improve or repair your ship
 
 TODO
 
@@ -55,7 +55,7 @@ TODO
 
 TODO
 
-## Buy Weapons & Armor
+## Buy equipments
 
 TODO
 

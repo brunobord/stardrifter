@@ -38,7 +38,7 @@ the [Galaxy World Generator][galaxy], and build your future destination.
     Galaxy Map and decide where you think it's more interesting to *drift away*.
 
 When you're done and you know where your destination is, you can go to the
-[Travel Section][travel]
+[Travel Section][travel].
 
 [galaxy]: ../galaxy/
 [marketplace]: ../marketplace/
