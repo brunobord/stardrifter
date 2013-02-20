@@ -42,7 +42,7 @@ negative, you're well-known too, but for evil and illegal deeds: murder, raids,
 traffic.
 
 !!! info "Special rule"
-    When this stat is reaching +6 or -6, your character becomes a
+    When this stat is reaching +4 or -4, your character becomes a
     legend. I think you can stop playing and retire... And start with a new
     character.
 
