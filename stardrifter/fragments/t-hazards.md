@@ -6,4 +6,3 @@
 | 7-9          |  Approched by Smugglers      |
 | 10-11        |  Approched by Space Patrol   |
 | 12 and more  |  Nothing happened            |
-

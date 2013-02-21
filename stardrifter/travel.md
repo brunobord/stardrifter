@@ -46,11 +46,51 @@ Results are rounded up.
 > Now it's 9 x 1.5 = 13.5, so it'll take **14 weeks** (rounded up). Very bad
 > Drifting, dear Dante...
 
-## Hazards
+## What you may encounter
+
+### Space Patrol
+
+The Space Patrol is responsible of the security on the "space roads" you'll take
+from a World to another. They can do anything to your ship. Arrest it, get into
+it to control the cargo load, check if everything is okay. If they find illegal
+merchandise, they can confiscate the cargo, the ship and send you to jail.
+
+If you refuse the inspection, they can get angry and attack you.
+
+### Smugglers
+
+Usually they're okay. Except when they're in need of money. If they recognize
+one of theirs (i.e. another Smuggler), it'll be usually easier to pass by their
+ship unharmed... except, again, if they're in need.
+
+### Pirates
+
+Pirates never attack other Pirates. But you shouldn't try to *pretend* to be a
+Pirate if you're not... they'd get **very** angry.
+
+Sometimes, Pirates don't  attack your ship, even if it's obviously fully loaded
+with nice merchandise. Maybe that's because their cargo load is full, or because
+their Weaponry is broken, etc.
+
+If you're lucky enough, take your chance. If not, prepare yourself to have a 
+fight to death.
+
+Alternatively, you can try to *Parley* (i.e. Negociate) to save your ship.
+
+## And now, what happened?
 
 You have to roll+Reputation to discover what happens this week.
 
 ~~t-hazards.md~~
+
+Here are the results, from the most comfortable to the most dangerous situation.
+
+### Nothing happens
+
+Daily routine, Astrogation computers are go, nothing really important going
+on... What about having a nap?
+
+### Approached by Space Patrol
 
 
 [map]: ../static/sheets/map.html
