@@ -39,7 +39,9 @@ class MarkdownReader(object):
     def __init__(self, fragment_path):
         self.fragments = {}
         for filename in os.listdir(fragment_path):
-            self.fragments[filename] = codecs.open(os.path.join(fragment_path, filename), encoding='utf').read()
+            logging.debug("Fragment: %s" % filename)
+            if filename.endswith('.md'):
+                self.fragments[filename] = codecs.open(os.path.join(fragment_path, filename), encoding='utf').read()
 
     def _parse_metadata(self, meta):
         """Return the dict containing document metadata"""
