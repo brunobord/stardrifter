@@ -66,10 +66,10 @@
 		</section>
 
 		<article class="span9">
-			<p>Take your World Sheet, your Ship Sheet and your Character Sheet and check if you
-want to buy or sell goods. You'll be able to buy Merchandises (things to trade
-from a World to another), sell these Merchandise, or buy things to improve your
-ship performances.</p>
+			<p>Take <strong>this</strong> World Sheet, your Ship Sheet and your Character Sheet and check if
+you want to buy or sell goods. You'll be able to buy Merchandises (things to
+trade from a World to another), sell these Merchandise, or buy things to improve
+your ship performances.</p>
 <p>On the World Sheet, you see the price of available goods. On the Ship Sheet, you
 can see how many cargo load unit are available. On the Character Sheet, you can
 see how much credit you have and what is your <em>Negociate</em> score.</p>
@@ -98,6 +98,10 @@ want to buy. Then you <em>roll+Negociate</em>. See the result below:</p>
 </tr>
 </tbody>
 </table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you can't afford the designated price the purchase is dismissed.</p>
+</div>
 <blockquote>
 <p>Dante Hewett has 4000 credits, poor Negociation skills (-1) and has a full
 cargo load available (4 units). He's now on the Planet Danbrilldal. He wants 
@@ -121,8 +125,55 @@ On his Character Sheet, we must state he has 4000 - 200 - 467 = 3333 credits
 left.</p>
 <p>Now Dante is ready to sail away to another World...</p>
 </blockquote>
+<h2 id="updates">Updates</h2>
+<ol>
+<li>Keep your available credit up to date.</li>
+<li>Update your new Cargo Load with your new merchandise.</li>
+<li>Keep track of your spendings on the <a href="../static/sheets/bookkeeping.html">Bookkeeping</a> document.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Important Warning</p>
+<p>Your Cargo Load <strong>can not</strong> be superior to your maximum Cargo Load.</p>
+</div>
 <h1 id="sell-merchandise">Sell Merchandise</h1>
-<p>TODO</p>
+<p>Selling goods needs the same skill: You'll have to Negociate with the eventual
+buyer. Of course, failure and success it reversed, and the <em>roll+Negociate</em>
+results should be read as:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Roll</th>
+<th align="left">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">6 or less</td>
+<td align="left">You'll sell this item at street price -25%</td>
+</tr>
+<tr>
+<td align="left">7-9</td>
+<td align="left">You'll sell this item its normal price</td>
+</tr>
+<tr>
+<td align="left">10 or more</td>
+<td align="left">You'll sell this item at street price +25%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="updates_1">Updates</h2>
+<ol>
+<li>Keep your available credit up to date.</li>
+<li>Update your new Cargo Load by removing the merchandise sold.</li>
+<li>Keep track of your incomes on the <a href="../static/sheets/bookkeeping.html">Bookkeeping</a> document.</li>
+</ol>
+<div class="admonition rule">
+<p class="admonition-title">Alternate Rule</p>
+<p>If you consider that the offered price is not enough, you can try to roll
+again. If the result is <strong>NOT A SUCCESS</strong> (i.e. more than 10), you <strong>have</strong>
+to accept the price. If it's more than 10, the item is sold at the Planet
+Street price (no modifier).</p>
+</div>
 <h1 id="improve-or-repair-your-ship">Improve or repair your ship</h1>
 <p>TODO</p>
 <h2 id="buy-energy-for-your-ship">Buy Energy for your ship</h2>
@@ -138,7 +189,7 @@ left.</p>
 		<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Stardrifter</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://brunobord.github.com/stardrifter/" property="cc:attributionName" rel="cc:attributionURL">Bruno Bord</a> is published under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Attribution - Share-Alike 3.0</a>.</p>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
 		<p><a href="https://github.com/brunobord/stardrifter/">Fork this project on Github</a></p>
-		<p><small>Generated on Thu, 21 Feb 2013 22:57</small></p>
+		<p><small>Generated on Mon, 06 May 2013 23:14</small></p>
 	</footer>
 	</section>
 </div>
