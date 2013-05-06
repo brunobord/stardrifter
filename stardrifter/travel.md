@@ -88,7 +88,7 @@ Here are the results, from the most comfortable to the most dangerous situation.
 ### Nothing happens
 
 Daily routine, Astrogation computers are go, nothing really important going
-on... What about having a nap?
+on... What about having a nap, cleaning up your room?
 
 ### Approached by Space Patrol
 

@@ -7,9 +7,10 @@ a quick summary of what you'll have to do to build a Stardrifter.
 
 * At least two 6-side dice, and eventually one 4-side die.
 * Pen, erasers, papers,
-* You may want to print a Character sheet, a Ship sheet and a handful of World
-  sheets. Or alternatively, take a stack of simple index cards where you'll write
-  stats on.
+* You may want to print a [Character sheet][character], a [Ship sheet][ship] and
+  a handful of [World][world] sheets. Or alternatively, take a stack of simple
+  index cards where you'll write stats on.
+* The [Galaxy Map][map] will help you manage travels.
 
 # Character
 
@@ -43,3 +44,7 @@ A starting ship has:
 
 ~~t-starting-ship-stats.md~~
 
+[character]: ../static/sheets/character.html
+[ship]: ../static/sheets/ship.html
+[world]: ../static/sheets/world.html
+[map]: ../static/sheets/map.html
