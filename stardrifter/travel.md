@@ -20,7 +20,7 @@ Here is how you travel from a World to another:
 
 1. calculate the distance in parsec.
 2. calculate the time required to cross this distance.
-3. roll+Drift to see if you did calculate properly your coordinates. see Drift table below for results. Adjust time required.
+3. *roll+Drift* to see if you did calculate properly your coordinates. see Drift table below for results. Adjust time required.
 4. for each week on board, roll on the Hazard Table.
 5. if something must happen (encounters, damages, etc), resolve the situation.
 6. substract 3 Energy points for this week on board.
@@ -92,6 +92,7 @@ on... What about having a nap, cleaning up your room?
 
 ### Approached by Space Patrol
 
+TODO
 
 [map]: ../static/sheets/map.html
 [marketplace]: ../marketplace/
