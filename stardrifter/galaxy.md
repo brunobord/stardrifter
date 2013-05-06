@@ -2,7 +2,8 @@ Title: The Galaxy World Generator
 
 
 The basic idea behind Stardrifter is that one can play it without preparation,
-without having to previously generate Planets, Worlds, beforehand.
+without having to previously generate Planets, Worlds, beforehand. Planets will
+be created **on the go**.
 
 At the beginning of the game, you'll have to roll for your initial location.
 Everytime you'll want to go from where you are to a **new planet**, you'll have
@@ -19,21 +20,21 @@ before starting to play.
 Whatever it is, you initial location or your next destination, you'll have to
 follow a few steps to generate a new World.
 
-Pick a "World sheet" (you can use a simple index card if you want).
+Pick a "[World sheet][world]" (you can use a simple index card if you want).
 
 ## 1. Name your world
 
 It has to be "Cosmologic". e.g.: Beta Hydri Major, Araknor, Rhat'hiiy'y, etc.
 Use your imagination, there's no established rule. Pick random numbers if you
-want. The name of the planet has to be unique, to be able to retrieve its sheet
-later on. Again, on the Web, you will find many Planet name generators.
+want. The name of the planet has to be unique, to be able to easily grab its
+sheet later on. Again, on the Web, you will find many Planet name generators.
 
 > **Solo Example**
 > 
 > At the beginning of his adventures, Dante is located on the Planet
 > *Danbrilldal*.
 
-Grab your Hex Map. If this world is you Initial Location, and draw a spot in the
+Grab your Hex Map. If this world is you *Initial Location*, draw a spot in the
 middle of the map, and write the name of the planet beside.
 
 ## 2. Distance
@@ -139,3 +140,4 @@ Your World is now complete. Enjoy your stay!
 
 [HexMap]: https://en.wikipedia.org/wiki/Hex_map
 [marketplace]: ../marketplace/
+[world]: ../static/sheets/world.html
