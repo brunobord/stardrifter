@@ -1,9 +1,9 @@
 Title: Your character
 
-You are a drifter. A merchant, a smuggler or a pirate. You are jumping from
+You are a *drifter*. A merchant, a smuggler or a pirate. You are jumping from
 planet to planet in the deep space with a full load of merchandise, to be sold
 at the best price, and you may buy some more on other worlds. Or, if you want to
-dive into piracy, you may try to attack space cargos and steal them.
+dive into piracy, you will attack space cargos and steal them.
 
 You'll first need to work a few things out before starting your adventure:
 
@@ -15,7 +15,8 @@ Well... it's a solo game, but please, no, don't pick "Han Solo".
 
 ## Your stats
 
-Each character has stats, of course.
+Stats reflect how skilled your character is in various actions needed when you
+want to live the life of the Drifter.
 
 ### Negociate
 
@@ -25,19 +26,18 @@ with Space Patrol officiers who want to snatch you or parley with Pirates.
 ### Drift
 
 The knowledge of physics, astrophysics, hyperdrive and space-travel, combined
-with the combat/tactics science of dodging and escaping when involved in space
-fight.
+with the art of dodging and escaping when involved in space fight.
 
 ### Fight
 
-Your capacity to fight in the air, find the best position to attack your
-opponent with the maximum of damages.
+Your capacity to fight in the air, choose the right tactics, find the best
+position to attack your opponent with the maximum of damages.
 
 ### Special stat: Reputation
 
 The higher, the better is your reputation. You're well-known and respected by
 other Spacedrifters, Space patrols and local planet governors. Great if you're
-in legal trade, but can be a bad when you're a Pirate. When this score is
+in legal trade, but can be bad when you're a Pirate. When this score is
 negative, you're well-known too, but for evil and illegal deeds: murder, raids,
 traffic.
 
@@ -49,15 +49,15 @@ traffic.
 ## How high are your stats?
 
 First of all, assign factors to your stats. You must assign **-2, -1, 0, +1**.
-Yes, when you add them, the result is negative. Hey, you're new in this game,
-don't you remember?
+You've read it right, when you add them, the result is negative. Well, you're
+new in this game, don't you remember?
 
 Further then, you will pick a class and roll dice for your origin, and apply
 the designated modifiers.
 
 ## Your class
 
-You have three basic choices, each one of them with pros and cons:
+You have three basic choices, each one has pros and cons:
 
 ### Merchant
 
@@ -79,18 +79,18 @@ just dream to snatch you as soon as they could.
 
 ### Pirate
 
-PLANET AHOY! you don't want a patron, you don't want to deal with
-customers. Life is short! You'll only have to let yourself drift between
-stars, waiting for poor innocent traders to be raided. Your loot will be drunk
-and spent in other weaponry, armor and fuel for your pirate ship.
+PLANET AHOY! you don't want a patron, you don't want to deal with customers.
+Life is short! You'll only have to let yourself drift between stars, waiting for
+poor innocent traders to be raided. Your loot will be drunk and spent in other
+weaponry, armor and fuel for your pirate ship.
 
 !!! rule "" 
     Apply a +1 to Fight, -1 to Reputation, +1 to Drift.
 
 ## Your origin
 
-All PC are Humans, but they may come from various areas of the galaxy. Roll 1D6
-to tell where you're from:
+Normally, the Playing Characters are Humans, but they come from various areas of
+the galaxy. Roll 1D6 to tell where you're from:
 
 ~~t-you-origins.md~~
 
@@ -104,8 +104,8 @@ richest place in the Galaxy. You are educated and versed in the Galactic Lore.
 
 ### The Surroundings
 
-You come from close-from-the center planets. They're usually quite rich areas,
-but not as rich as Capital Planet.
+You come from close-from-the center planets. They're usually rich and educated
+areas, but not as rich as Capital Planet.
 
 !!! rule "" 
     Add +1 to Drift.
@@ -114,7 +114,7 @@ but not as rich as Capital Planet.
 
 Some of the coldest and farthest worlds in the Galaxy. Your world is a hard
 place, people are tough, you had to fight to survive. You don't know much about
-Galactic Lore.
+Galactic Lore and Etiquette. And you don't care.
 
 !!! rule "" 
     Add +1 to Fight.
@@ -132,7 +132,7 @@ chapter for more details), and a few credits.
 > Let's play Stardrifter! My character will be named Dante Hewett. I've
 > chosen him to be a Smuggler, just because I don't want him to be too nasty or
 > too gentle.  
->
+>  
 > I've assigned stats this way:
 >
 > * Negociate: -2
@@ -141,7 +141,7 @@ chapter for more details), and a few credits.
 > * Fight: 0
 >
 >
-> I'm now rolling for Origins: it's a *3*. Dante is coming from the Surroundings,
+> I'm now rolling for Origins: it's a **3**. Dante is coming from the Surroundings,
 > so I am applying both Class and Origin modifiers.
 >
 > Now my characters stats are:
@@ -153,7 +153,7 @@ chapter for more details), and a few credits.
 >
 > Well, it looks like I'm a hell of a drifter, but my tongue is not as skillful.
 >
-> I'm now rolling for wealth: it's a *3* again. I'm adding 1, since Hewett's
+> I'm now rolling for wealth: it's a **3** again. I'm adding 1, since Hewett is
 > coming from the Surroundings, and here's my money: 4000 credits.
 
 ## How to use your stats?
@@ -162,8 +162,8 @@ During the game, you'll be asked to roll dice associated with a stat. The roll
 will be noted: *roll+Negociate*, or *roll+Reputation*.
 
 It means you'll have to roll two 6-side-dice and add the designated stat to it.
-Usually, a result with 10 or more will be a success ; a result with 6 or less
-is a failure. A result between 7 and 9 will be a partial success ; you'll succeed,
+Usually, a result with 10 or more will be a success ; a result with 6 or less is
+a failure. A result between 7 and 9 will be a partial success ; you'll succeed,
 but you'll experience little drawbacks.
 
 > **Solo Example**
@@ -179,7 +179,7 @@ It may happen that you'll have to roll+Reputation **or** roll-Reputation.
 > its a "+2 roll".
 
 
-Now we're going to look after your "only" friend: [your spaceship][ship].
+Now we're going to look after your *best friend*: [your spaceship][ship].
 
 
 [ship]: ../ship/
