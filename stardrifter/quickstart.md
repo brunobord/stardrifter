@@ -44,6 +44,8 @@ A starting ship has:
 
 ~~t-starting-ship-stats.md~~
 
+And now... **DRIFT AWAY!**
+
 [character]: ../static/sheets/character.html
 [ship]: ../static/sheets/ship.html
 [world]: ../static/sheets/world.html
