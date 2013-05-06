@@ -43,6 +43,12 @@ pre, code, table, tr, td, th {
   border: 1px solid rgba(0,0,0,0.15);
   color: #333;
 }
+.warning {
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  border: 1px solid rgba(0,0,0,0.15);
+  color: #c09853;
+}
 .admonition-title {
   font-size: 1.3em;
   font-weight: bold;

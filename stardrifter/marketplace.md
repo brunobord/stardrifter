@@ -1,9 +1,9 @@
 Title: Buy & Sell
 
-Take your World Sheet, your Ship Sheet and your Character Sheet and check if you
-want to buy or sell goods. You'll be able to buy Merchandises (things to trade
-from a World to another), sell these Merchandise, or buy things to improve your
-ship performances.
+Take **this** World Sheet, your Ship Sheet and your Character Sheet and check if
+you want to buy or sell goods. You'll be able to buy Merchandises (things to
+trade from a World to another), sell these Merchandise, or buy things to improve
+your ship performances.
 
 On the World Sheet, you see the price of available goods. On the Ship Sheet, you
 can see how many cargo load unit are available. On the Character Sheet, you can
@@ -14,7 +14,11 @@ see how much credit you have and what is your *Negociate* score.
 Every time you want to buy things, you first pick the item and the quantity you
 want to buy. Then you *roll+Negociate*. See the result below:
 
-~~t-marketplace-price-modifiers.md~~
+~~t-marketplace-price-modifiers-buy.md~~
+
+!!! note
+    
+    If you can't afford the designated price the purchase is dismissed.
 
 > Dante Hewett has 4000 credits, poor Negociation skills (-1) and has a full
 > cargo load available (4 units). He's now on the Planet Danbrilldal. He wants 
@@ -43,9 +47,37 @@ want to buy. Then you *roll+Negociate*. See the result below:
 > 
 > Now Dante is ready to sail away to another World...
 
+## Updates
+
+1. Keep your available credit up to date.
+2. Update your new Cargo Load with your new merchandise.
+3. Keep track of your spendings on the [Bookkeeping][bookkeeping] document.
+
+
+!!! warning "Important Warning"
+    
+    Your Cargo Load **can not** be superior to your maximum Cargo Load.
+
 # Sell Merchandise
 
-TODO
+Selling goods needs the same skill: You'll have to Negociate with the eventual
+buyer. Of course, failure and success it reversed, and the *roll+Negociate*
+results should be read as:
+
+~~t-marketplace-price-modifiers-sell.md~~
+
+## Updates
+
+1. Keep your available credit up to date.
+2. Update your new Cargo Load by removing the merchandise sold.
+3. Keep track of your incomes on the [Bookkeeping][bookkeeping] document.
+
+!!! rule "Alternate Rule"
+
+    If you consider that the offered price is not enough, you can try to roll
+    again. If the result is **NOT A SUCCESS** (i.e. more than 10), you **have**
+    to accept the price. If it's more than 10, the item is sold at the Planet
+    Street price (no modifier).
 
 # Improve or repair your ship
 
@@ -61,3 +93,4 @@ TODO
 
 
 [prices-on-danbrilldal]: ../galaxy/#prices-on-danbrilldal
+[bookkeeping]: ../static/sheets/bookkeeping.html
