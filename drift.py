@@ -27,6 +27,7 @@ from markdown import Markdown
 SOURCE_PATH = os.path.abspath(os.path.join('.', 'stardrifter'))
 BUILD_PATH = os.path.abspath(os.path.join('.', 'build'))
 STATIC_PATH = os.path.join(BUILD_PATH, 'static')
+VENDOR_PATH = os.path.join(BUILD_PATH, 'vendor')
 
 now = datetime.datetime.now()
 
@@ -137,8 +138,11 @@ def build():
     # copy the full static files in build
     if os.path.exists(STATIC_PATH):
         shutil.rmtree(STATIC_PATH)
+    if os.path.exists(VENDOR_PATH):
+        shutil.rmtree(VENDOR_PATH)
     logging.info('Copying static files')
     shutil.copytree('static', STATIC_PATH)
+    shutil.copytree('vendor', VENDOR_PATH)
     logging.info("Done")
 
 
