@@ -1,6 +1,6 @@
 Title: Advanced Play
 
-## Write off the story
+## Storytelling
 
 Of course, "just playing" the game is fine, and I hope you enjoy it. But you may
 do a little bit more with it, I guess. You make this game a *Story Game* by 
