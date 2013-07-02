@@ -29,8 +29,12 @@ I'm only using four webfonts to avoid the ugly Verdana or worse, Papyrus:
 * [Droid Sans][Droid] for the main text,
 * [Droid Sans Mono][Droid] for the monospaced text (notes, tables, etc),
 * [Ubuntu][] for quotes.
+* [Rock Salt][Rock Salt] for handwriting logbook
 
 All these webfonts are provided by [Google Webfonts][]
+
+Logbook style is inspired by the ["Passin' me by" theme][Passin' me by] available
+on the excellent [Typespiration website][Typespiration]
 
 The Hex Map is rendered using [this SVG experiment][hexmap-ref], by Josh Bassett.
 
@@ -45,5 +49,8 @@ The Hex Map is rendered using [this SVG experiment][hexmap-ref], by Josh Bassett
 [Ubuntu]: http://font.ubuntu.com/
 [Droid]: https://en.wikipedia.org/wiki/Droid_fonts
 [Iceland]: http://www.ffonts.net/Iceland.font
+[Rock Salt]: http://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Rock+Salt
+[Passin' me by]: http://typespiration.com/types/passin-me-by/
+[Typespiration]: http://typespiration.com/
 [Privateer]: https://en.wikipedia.org/wiki/Wing_Commander%3A_Privateer
 [hexmap-ref]: https://github.com/nullobject/svg-experiments/blob/master/hex-grid.html
