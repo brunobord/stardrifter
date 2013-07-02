@@ -49,6 +49,13 @@ pre, code, table, tr, td, th {
   border: 1px solid rgba(0,0,0,0.15);
   color: #c09853;
 }
+.logbook, .logbook blockquote p {
+  background-color: #e7edec;
+  color: #135269;
+  font-family: 'Rock Salt', cursive;
+  font-size: 14px;
+  font-style: normal;
+}
 .admonition-title {
   font-size: 1.3em;
   font-weight: bold;
