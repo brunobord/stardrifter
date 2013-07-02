@@ -17,11 +17,11 @@ Enterprise, or something.
     > about this trip.
     >
 
-Each time you build a *New World* using the [Galaxy Generator][galaxy], describe
-it. Try to imagine the way it looks, how are the people living there. Does your
-character know someone on this Planet? Has (s)he been there before? What is your
-character going to do with fresh money in hands? Drink it? Enjoy life until the
-next mission?
+Each time you build a **New World** using the [Galaxy Generator][galaxy],
+describe it. Try to imagine the way it looks, how are the people living there.
+Does your character know someone on this Planet? Has (s)he been there before?
+What is your character going to do with fresh money in hands? Drink it? Enjoy
+life until the next mission?
 
 Each time you're travelling and bad things happen, why don't you try to vividly
 describe what happened? Were you scared? Why did you decide to flee instead of
