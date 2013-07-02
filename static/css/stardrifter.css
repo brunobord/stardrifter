@@ -49,12 +49,24 @@ pre, code, table, tr, td, th {
   border: 1px solid rgba(0,0,0,0.15);
   color: #c09853;
 }
-.logbook, .logbook blockquote p {
+.logbook {
   background-color: #e7edec;
   color: #135269;
+  letter-spacing: .3em;
+  line-height: 2em;
+  background-size: 150% 2em;
+  background-image: -webkit-linear-gradient(rgba(102,193,227,.4) 1px, transparent 1px);
+  background-image: -moz-linear-gradient(rgba(102,193,227,.4) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(102,193,227,.4) 1px, transparent 1px);
+}
+.logbook blockquote p, .logbook, .logbook p {
   font-family: 'Rock Salt', cursive;
   font-size: 14px;
   font-style: normal;
+  margin: 0;
+}
+.logbook blockquote {
+  border: none;
 }
 .admonition-title {
   font-size: 1.3em;
